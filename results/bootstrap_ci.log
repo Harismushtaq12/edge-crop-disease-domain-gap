@@ -1,0 +1,25 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789855830.544502     417 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789855830.581849     417 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789855831.826120     417 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+=== tomato: scoring 687 lab + 744 field images (INT8) ===
+/usr/local/lib/python3.11/dist-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+  Lab   acc: 0.7948  95% CI [0.7642, 0.8239]  (n=687)
+  Field acc: 0.1169  95% CI [0.0941, 0.1398]  (n=744)
+  Gap (lab-field): 0.6778  95% CI [0.6401, 0.7151]
+  95% CI excludes zero (gap is statistically real): True
+=== multicrop: scoring 1771 lab + 2010 field images (INT8) ===
+  Lab   acc: 0.8662  95% CI [0.8504, 0.8820]  (n=1771)
+  Field acc: 0.0910  95% CI [0.0786, 0.1040]  (n=2010)
+  Gap (lab-field): 0.7751  95% CI [0.7548, 0.7951]
+  95% CI excludes zero (gap is statistically real): True
+
+Saved bootstrap_ci_results.json

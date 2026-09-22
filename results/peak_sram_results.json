@@ -1,0 +1,76 @@
+{
+  "metric": "max over operators of (sum input bytes + output bytes), INT8",
+  "note": "analytical lower bound: excludes long-lived residual tensors, per-kernel scratch, im2col buffers and alignment padding",
+  "reference_budgets_kb": {
+    "Arduino Nano 33 BLE (nRF52840)": 256,
+    "Raspberry Pi Pico (RP2040)": 264,
+    "STM32F746 Discovery": 320,
+    "STM32H743": 1024
+  },
+  "variants": [
+    {
+      "model": "model_tomato_mobilenetv2_fp32.keras",
+      "label": "MobileNetV2 (\u03b1=0.75)",
+      "img_size": 96,
+      "n_layers_flat": 157,
+      "params": 1392312,
+      "weights_int8_kb": 1359.7,
+      "peak_activation_int8_kb": 441.1,
+      "peak_at_layer": "block_1_pad",
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": false,
+        "Raspberry Pi Pico (RP2040)": false,
+        "STM32F746 Discovery": false,
+        "STM32H743": true
+      }
+    },
+    {
+      "model": "model_tomato_mobilenetv3small_fp32.keras",
+      "label": "MobileNetV3-Small",
+      "img_size": 96,
+      "n_layers_flat": 160,
+      "params": 943736,
+      "weights_int8_kb": 921.6,
+      "peak_activation_int8_kb": 84.4,
+      "peak_at_layer": "expanded_conv_1_depthwise_pad",
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": true,
+        "Raspberry Pi Pico (RP2040)": true,
+        "STM32F746 Discovery": true,
+        "STM32H743": true
+      }
+    },
+    {
+      "model": "model_tomato_efficientnetb0_fp32.keras",
+      "label": "EfficientNetB0",
+      "img_size": 96,
+      "n_layers_flat": 240,
+      "params": 4059819,
+      "weights_int8_kb": 3964.7,
+      "peak_activation_int8_kb": 441.1,
+      "peak_at_layer": "block2a_dwconv_pad",
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": false,
+        "Raspberry Pi Pico (RP2040)": false,
+        "STM32F746 Discovery": false,
+        "STM32H743": true
+      }
+    },
+    {
+      "model": "model_tomato_pretrained_fp32.keras",
+      "label": "MobileNetV2 (\u03b1=1.0, pretrained)",
+      "img_size": 96,
+      "n_layers_flat": 170,
+      "params": 2268232,
+      "weights_int8_kb": 2215.1,
+      "peak_activation_int8_kb": 450.4,
+      "peak_at_layer": "block_1_dw_pad",
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": false,
+        "Raspberry Pi Pico (RP2040)": false,
+        "STM32F746 Discovery": false,
+        "STM32H743": true
+      }
+    }
+  ]
+}

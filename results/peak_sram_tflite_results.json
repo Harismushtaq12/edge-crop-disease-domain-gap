@@ -1,0 +1,184 @@
+{
+  "metric": "peak_arena = max over execution steps of total live activation bytes on the converted INT8 TFLite graph",
+  "note": "lower bound on deployed RAM: excludes per-kernel scratch, im2col buffers and allocator alignment padding. Weights excluded (flash-resident).",
+  "reference_budgets_kb": {
+    "Arduino Nano 33 BLE (nRF52840)": 256,
+    "Raspberry Pi Pico (RP2040)": 264,
+    "STM32F746 Discovery": 320,
+    "STM32H743": 1024
+  },
+  "variants": [
+    {
+      "n_ops": 65,
+      "peak_op_kb": 270.0,
+      "peak_op_at": "DEPTHWISE_CONV_2D",
+      "peak_arena_kb": 270.0,
+      "peak_arena_at": "DEPTHWISE_CONV_2D",
+      "top5_arena": [
+        {
+          "kb": 270.0,
+          "step": 4,
+          "op": "DEPTHWISE_CONV_2D"
+        },
+        {
+          "kb": 252.0,
+          "step": 3,
+          "op": "CONV_2D"
+        },
+        {
+          "kb": 175.5,
+          "step": 7,
+          "op": "DEPTHWISE_CONV_2D"
+        },
+        {
+          "kb": 108.0,
+          "step": 8,
+          "op": "CONV_2D"
+        },
+        {
+          "kb": 108.0,
+          "step": 1,
+          "op": "DEPTHWISE_CONV_2D"
+        }
+      ],
+      "model": "model_tomato_mobilenetv2_int8.tflite",
+      "label": "MobileNetV2 ($\\alpha$=0.75)",
+      "img_size": 96,
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": false,
+        "Raspberry Pi Pico (RP2040)": false,
+        "STM32F746 Discovery": true,
+        "STM32H743": true
+      }
+    },
+    {
+      "n_ops": 108,
+      "peak_op_kb": 72.0,
+      "peak_op_at": "HARD_SWISH",
+      "peak_arena_kb": 72.0,
+      "peak_arena_at": "HARD_SWISH",
+      "top5_arena": [
+        {
+          "kb": 72.0,
+          "step": 3,
+          "op": "HARD_SWISH"
+        },
+        {
+          "kb": 63.0,
+          "step": 2,
+          "op": "CONV_2D"
+        },
+        {
+          "kb": 54.0,
+          "step": 1,
+          "op": "ADD"
+        },
+        {
+          "kb": 54.0,
+          "step": 0,
+          "op": "MUL"
+        },
+        {
+          "kb": 50.6,
+          "step": 12,
+          "op": "DEPTHWISE_CONV_2D"
+        }
+      ],
+      "model": "model_tomato_mobilenetv3small_int8.tflite",
+      "label": "MobileNetV3-Small",
+      "img_size": 96,
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": true,
+        "Raspberry Pi Pico (RP2040)": true,
+        "STM32F746 Discovery": true,
+        "STM32H743": true
+      }
+    },
+    {
+      "n_ops": 303,
+      "peak_op_kb": 648.0,
+      "peak_op_at": "MUL",
+      "peak_arena_kb": 648.0,
+      "peak_arena_at": "MUL",
+      "top5_arena": [
+        {
+          "kb": 648.0,
+          "step": 20,
+          "op": "MUL"
+        },
+        {
+          "kb": 432.0,
+          "step": 19,
+          "op": "LOGISTIC"
+        },
+        {
+          "kb": 270.0,
+          "step": 21,
+          "op": "DEPTHWISE_CONV_2D"
+        },
+        {
+          "kb": 256.5,
+          "step": 41,
+          "op": "MUL"
+        },
+        {
+          "kb": 256.5,
+          "step": 38,
+          "op": "MUL"
+        }
+      ],
+      "model": "model_tomato_efficientnetb0_int8.tflite",
+      "label": "EfficientNetB0",
+      "img_size": 96,
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": false,
+        "Raspberry Pi Pico (RP2040)": false,
+        "STM32F746 Discovery": false,
+        "STM32H743": true
+      }
+    },
+    {
+      "n_ops": 70,
+      "peak_op_kb": 450.4,
+      "peak_op_at": "PAD",
+      "peak_arena_kb": 450.4,
+      "peak_arena_at": "PAD",
+      "top5_arena": [
+        {
+          "kb": 450.4,
+          "step": 5,
+          "op": "PAD"
+        },
+        {
+          "kb": 288.4,
+          "step": 6,
+          "op": "DEPTHWISE_CONV_2D"
+        },
+        {
+          "kb": 252.0,
+          "step": 4,
+          "op": "CONV_2D"
+        },
+        {
+          "kb": 176.1,
+          "step": 13,
+          "op": "PAD"
+        },
+        {
+          "kb": 175.5,
+          "step": 9,
+          "op": "DEPTHWISE_CONV_2D"
+        }
+      ],
+      "model": "model_tomato_pretrained_int8.tflite",
+      "label": "MobileNetV2 ($\\alpha$=1.0, pretrained)",
+      "img_size": 96,
+      "fits": {
+        "Arduino Nano 33 BLE (nRF52840)": false,
+        "Raspberry Pi Pico (RP2040)": false,
+        "STM32F746 Discovery": false,
+        "STM32H743": true
+      }
+    }
+  ]
+}

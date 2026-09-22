@@ -1,0 +1,23 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789856047.496614     634 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789856047.535625     634 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789856048.841455     634 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Loading 687 lab-test images...
+Baseline FP32 accuracy: 0.5706
+86 weighted layers total: 18 SE, 68 non-SE
+All-layers weight-fake-quant accuracy: 0.1834  (real TFLite INT8 was 0.131)
+SE-layers-only quantized accuracy: 0.5721  (drop: -0.0015)
+Non-SE-layers-only quantized accuracy: 0.1834  (drop: 0.3872)
+  block expanded_conv: acc=0.5721  drop=-0.0015
+  block expanded_conv_10: acc=0.5706  drop=0.0000
+  block expanded_conv_3: acc=0.5706  drop=0.0000
+  block expanded_conv_4: acc=0.5706  drop=0.0000
+  block expanded_conv_5: acc=0.5706  drop=0.0000
+  block expanded_conv_6: acc=0.5706  drop=0.0000
+  block expanded_conv_7: acc=0.5706  drop=0.0000
+  block expanded_conv_8: acc=0.5706  drop=0.0000
+  block expanded_conv_9: acc=0.5706  drop=0.0000
+
+Saved layer_sensitivity_results.json

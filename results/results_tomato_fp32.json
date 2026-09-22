@@ -1,0 +1,20 @@
+{
+  "experiment": "tomato",
+  "n_classes": 8,
+  "img_size": 96,
+  "n_train": 3201,
+  "n_val": 685,
+  "n_test": 687,
+  "n_field": 744,
+  "train_time_sec": 2089.4121112823486,
+  "epochs_run": 54,
+  "params": 1392312,
+  "pv_test": {
+    "loss": 0.780766487121582,
+    "accuracy": 0.7874817848205566
+  },
+  "pd_field": {
+    "loss": 8.931280136108398,
+    "accuracy": 0.12096773833036423
+  }
+}

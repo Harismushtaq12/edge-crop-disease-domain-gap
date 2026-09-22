@@ -1,0 +1,136 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789840149.305344     397 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789840166.051206     397 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789840172.689879     397 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[tomato] field-finetune split: ft_train=120 ft_val=40 ft_test=584
+Loading base model: model_tomato_fp32.keras
+BEFORE fine-tuning:
+  ft_test acc=0.1216  lab acc=0.7875
+/usr/local/lib/python3.11/dist-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/20
+8/8 - 24s - 3s/step - accuracy: 0.1667 - loss: 6.1287 - val_accuracy: 0.0500 - val_loss: 7.3000
+Epoch 2/20
+8/8 - 3s - 319ms/step - accuracy: 0.1833 - loss: 5.1432 - val_accuracy: 0.1250 - val_loss: 6.6784
+Epoch 3/20
+8/8 - 2s - 312ms/step - accuracy: 0.2000 - loss: 4.3416 - val_accuracy: 0.1000 - val_loss: 6.0307
+Epoch 4/20
+8/8 - 2s - 302ms/step - accuracy: 0.2250 - loss: 4.1098 - val_accuracy: 0.1000 - val_loss: 5.5070
+Epoch 5/20
+8/8 - 3s - 336ms/step - accuracy: 0.2167 - loss: 3.4430 - val_accuracy: 0.0250 - val_loss: 5.1174
+Epoch 6/20
+8/8 - 5s - 619ms/step - accuracy: 0.2500 - loss: 3.1131 - val_accuracy: 0.0250 - val_loss: 4.9669
+Epoch 7/20
+8/8 - 2s - 309ms/step - accuracy: 0.2417 - loss: 3.0068 - val_accuracy: 0.0250 - val_loss: 4.6082
+Epoch 8/20
+8/8 - 3s - 317ms/step - accuracy: 0.4000 - loss: 2.3267 - val_accuracy: 0.1250 - val_loss: 4.1238
+AFTER fine-tuning:
+  ft_test acc=0.1455  lab acc=0.4556
+
+SUMMARY
+  Field (ft_test) accuracy: 12.2% -> 14.6%  (delta +2.4 pp)
+  Lab accuracy:             78.7% -> 45.6%  (delta -33.2 pp)
+DONE {
+  "experiment": "tomato",
+  "architecture": "mobilenetv2",
+  "tag": "tomato",
+  "ft_train_n": 120,
+  "ft_val_n": 40,
+  "ft_test_n": 584,
+  "ft_epochs_run": 8,
+  "ft_time_sec": 44.23125410079956,
+  "before": {
+    "ft_test_accuracy": 0.12157534062862396,
+    "lab_accuracy": 0.7874817848205566
+  },
+  "after": {
+    "ft_test_accuracy": 0.14554794132709503,
+    "lab_accuracy": 0.45560407638549805
+  },
+  "before_perclass": {
+    "13": {
+      "acc": 0.02222222276031971,
+      "n": 90,
+      "class_name": "Tomato___Bacterial_spot"
+    },
+    "14": {
+      "acc": 0.3970588147640228,
+      "n": 68,
+      "class_name": "Tomato___Early_blight"
+    },
+    "15": {
+      "acc": 0.1318681389093399,
+      "n": 91,
+      "class_name": "Tomato___Late_blight"
+    },
+    "16": {
+      "acc": 0.04580152779817581,
+      "n": 131,
+      "class_name": "Tomato___Septoria_leaf_spot"
+    },
+    "17": {
+      "acc": 0.0,
+      "n": 34,
+      "class_name": "Tomato___Tomato_mosaic_virus"
+    },
+    "18": {
+      "acc": 0.302325576543808,
+      "n": 43,
+      "class_name": "Tomato___healthy"
+    },
+    "19": {
+      "acc": 0.1428571492433548,
+      "n": 56,
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    },
+    "20": {
+      "acc": 0.0422535203397274,
+      "n": 71,
+      "class_name": "Tomato___Leaf_Mold"
+    }
+  },
+  "after_perclass": {
+    "13": {
+      "acc": 0.12222222238779068,
+      "n": 90,
+      "class_name": "Tomato___Bacterial_spot"
+    },
+    "14": {
+      "acc": 0.2647058963775635,
+      "n": 68,
+      "class_name": "Tomato___Early_blight"
+    },
+    "15": {
+      "acc": 0.10989011079072952,
+      "n": 91,
+      "class_name": "Tomato___Late_blight"
+    },
+    "16": {
+      "acc": 0.11450381577014923,
+      "n": 131,
+      "class_name": "Tomato___Septoria_leaf_spot"
+    },
+    "17": {
+      "acc": 0.0882352963089943,
+      "n": 34,
+      "class_name": "Tomato___Tomato_mosaic_virus"
+    },
+    "18": {
+      "acc": 0.11627907305955887,
+      "n": 43,
+      "class_name": "Tomato___healthy"
+    },
+    "19": {
+      "acc": 0.25,
+      "n": 56,
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    },
+    "20": {
+      "acc": 0.1267605572938919,
+      "n": 71,
+      "class_name": "Tomato___Leaf_Mold"
+    }
+  }
+}

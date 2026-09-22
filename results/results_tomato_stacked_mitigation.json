@@ -1,0 +1,53 @@
+{
+  "experiment": "tomato",
+  "variant": "stacked_pretrained_plus_fieldfinetune",
+  "base_model": "model_tomato_pretrained_fp32.keras",
+  "selection_criterion": "ft_val_accuracy (ft_test never used for model selection)",
+  "ft_train_n": 120,
+  "ft_val_n": 40,
+  "ft_test_n": 584,
+  "total_time_sec": 771.6280651092529,
+  "before": {
+    "ft_test_accuracy": 0.2328767123287671,
+    "lab_accuracy": 0.9723435225618632,
+    "full_field_accuracy": 0.2217741935483871
+  },
+  "after": {
+    "head_only": {
+      "ft_val_accuracy": 0.425,
+      "ft_test_accuracy": 0.273972602739726,
+      "lab_accuracy": 0.9199417758369723,
+      "full_field_accuracy": 0.3346774193548387
+    },
+    "l2sp": {
+      "alpha_selected": 0.01,
+      "ft_val_accuracy": 0.45,
+      "ft_test_accuracy": 0.2996575342465753,
+      "lab_accuracy": 0.7540029112081513,
+      "full_field_accuracy": 0.4166666666666667,
+      "all_alpha_results": [
+        {
+          "alpha": 0.01,
+          "ft_val_acc": 0.45,
+          "ft_test_acc": 0.2996575342465753,
+          "lab_acc": 0.7540029112081513,
+          "full_field_acc": 0.4166666666666667
+        },
+        {
+          "alpha": 0.1,
+          "ft_val_acc": 0.425,
+          "ft_test_acc": 0.285958904109589,
+          "lab_acc": 0.7496360989810772,
+          "full_field_acc": 0.39381720430107525
+        }
+      ]
+    }
+  },
+  "reference_from_scratch_baseline": {
+    "note": "Section V-E numbers, from-scratch backbone, same split",
+    "headft_ft_test": 0.156,
+    "headft_lab": 0.629,
+    "l2sp_ft_test": 0.178,
+    "l2sp_lab": 0.335
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "tomato",
+  "architecture": "mobilenetv3small",
+  "n_classes": 8,
+  "img_size": 96,
+  "n_train": 3201,
+  "n_val": 685,
+  "n_test": 687,
+  "n_field": 744,
+  "train_time_sec": 423.73216557502747,
+  "epochs_run": 23,
+  "params": 943736,
+  "pv_test": {
+    "loss": 1.2031339406967163,
+    "accuracy": 0.5705968141555786
+  },
+  "pd_field": {
+    "loss": 6.557399272918701,
+    "accuracy": 0.11559139937162399
+  }
+}

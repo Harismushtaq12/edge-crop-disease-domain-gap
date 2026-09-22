@@ -1,0 +1,36 @@
+{
+  "img_size": 224,
+  "steps": 12,
+  "container_total_mb": 8032,
+  "container_available_mb": 7352,
+  "measurements": [
+    {
+      "batch": 8,
+      "peak_rss_mb": 3594.9,
+      "returncode": 0,
+      "survived": true,
+      "oom_killed": false
+    },
+    {
+      "batch": 16,
+      "peak_rss_mb": 4063.8,
+      "returncode": 0,
+      "survived": true,
+      "oom_killed": false
+    },
+    {
+      "batch": 32,
+      "peak_rss_mb": 5705.4,
+      "returncode": 0,
+      "survived": true,
+      "oom_killed": false
+    },
+    {
+      "batch": 64,
+      "peak_rss_mb": null,
+      "returncode": -9,
+      "survived": false,
+      "oom_killed": true
+    }
+  ]
+}

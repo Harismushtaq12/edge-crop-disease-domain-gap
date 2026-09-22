@@ -1,0 +1,20 @@
+{
+  "experiment": "multicrop",
+  "n_classes": 21,
+  "img_size": 96,
+  "n_train": 8248,
+  "n_val": 1765,
+  "n_test": 1771,
+  "n_field": 2010,
+  "train_time_sec": 6945.767077207565,
+  "epochs_run": 60,
+  "params": 1408965,
+  "pv_test": {
+    "loss": 0.49114179611206055,
+    "accuracy": 0.8684359192848206
+  },
+  "pd_field": {
+    "loss": 13.228742599487305,
+    "accuracy": 0.09154228866100311
+  }
+}

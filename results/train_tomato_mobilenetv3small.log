@@ -1,0 +1,82 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789842710.911792    2470 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789842710.947970    2470 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789842712.312063    2470 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[tomato_mobilenetv3small] classes=8  total_rows=5317
+  train=3201 val=685 test=687 field(PlantDoc)=744
+943736 parameters
+/usr/local/lib/python3.11/dist-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/60
+51/51 - 32s - 637ms/step - accuracy: 0.1746 - loss: 2.1341 - val_accuracy: 0.1314 - val_loss: 2.1078 - learning_rate: 3.0000e-05
+Epoch 2/60
+51/51 - 19s - 370ms/step - accuracy: 0.2424 - loss: 1.9542 - val_accuracy: 0.1168 - val_loss: 4.4285 - learning_rate: 6.0000e-05
+Epoch 3/60
+51/51 - 20s - 393ms/step - accuracy: 0.3033 - loss: 1.8382 - val_accuracy: 0.1533 - val_loss: 3.6716 - learning_rate: 6.0000e-05
+Epoch 4/60
+51/51 - 14s - 284ms/step - accuracy: 0.4167 - loss: 1.6359 - val_accuracy: 0.1635 - val_loss: 11.6601 - learning_rate: 6.0000e-05
+Epoch 5/60
+51/51 - 21s - 404ms/step - accuracy: 0.4923 - loss: 1.4456 - val_accuracy: 0.1182 - val_loss: 6.4317 - learning_rate: 6.0000e-05
+Epoch 6/60
+51/51 - 21s - 404ms/step - accuracy: 0.5339 - loss: 1.3087 - val_accuracy: 0.1328 - val_loss: 5.9502 - learning_rate: 6.0000e-05
+Epoch 7/60
+51/51 - 20s - 387ms/step - accuracy: 0.5873 - loss: 1.1820 - val_accuracy: 0.1314 - val_loss: 14.4160 - learning_rate: 6.0000e-05
+Epoch 8/60
+51/51 - 21s - 410ms/step - accuracy: 0.6382 - loss: 1.0633 - val_accuracy: 0.1518 - val_loss: 5.5952 - learning_rate: 6.0000e-05
+Epoch 9/60
+51/51 - 14s - 271ms/step - accuracy: 0.6545 - loss: 0.9856 - val_accuracy: 0.1372 - val_loss: 7.4759 - learning_rate: 6.0000e-05
+Epoch 10/60
+51/51 - 14s - 278ms/step - accuracy: 0.7007 - loss: 0.8891 - val_accuracy: 0.1255 - val_loss: 7.7984 - learning_rate: 3.0000e-05
+Epoch 11/60
+51/51 - 21s - 410ms/step - accuracy: 0.7132 - loss: 0.8522 - val_accuracy: 0.5328 - val_loss: 1.2777 - learning_rate: 3.0000e-05
+Epoch 12/60
+51/51 - 20s - 392ms/step - accuracy: 0.7257 - loss: 0.7968 - val_accuracy: 0.3723 - val_loss: 2.3042 - learning_rate: 3.0000e-05
+Epoch 13/60
+51/51 - 14s - 274ms/step - accuracy: 0.7507 - loss: 0.7527 - val_accuracy: 0.1664 - val_loss: 5.5755 - learning_rate: 3.0000e-05
+Epoch 14/60
+51/51 - 21s - 403ms/step - accuracy: 0.7554 - loss: 0.7238 - val_accuracy: 0.2905 - val_loss: 2.3539 - learning_rate: 3.0000e-05
+Epoch 15/60
+51/51 - 20s - 397ms/step - accuracy: 0.7732 - loss: 0.6817 - val_accuracy: 0.1854 - val_loss: 4.8032 - learning_rate: 3.0000e-05
+Epoch 16/60
+51/51 - 14s - 281ms/step - accuracy: 0.7835 - loss: 0.6483 - val_accuracy: 0.1869 - val_loss: 4.8089 - learning_rate: 3.0000e-05
+Epoch 17/60
+51/51 - 21s - 413ms/step - accuracy: 0.8001 - loss: 0.6134 - val_accuracy: 0.1664 - val_loss: 5.0925 - learning_rate: 1.5000e-05
+Epoch 18/60
+51/51 - 20s - 388ms/step - accuracy: 0.8041 - loss: 0.5962 - val_accuracy: 0.3708 - val_loss: 2.0492 - learning_rate: 1.5000e-05
+Epoch 19/60
+51/51 - 21s - 408ms/step - accuracy: 0.8260 - loss: 0.5565 - val_accuracy: 0.5153 - val_loss: 1.4251 - learning_rate: 1.5000e-05
+Epoch 20/60
+51/51 - 14s - 268ms/step - accuracy: 0.8163 - loss: 0.5607 - val_accuracy: 0.2759 - val_loss: 3.8240 - learning_rate: 1.5000e-05
+Epoch 21/60
+51/51 - 14s - 275ms/step - accuracy: 0.8282 - loss: 0.5405 - val_accuracy: 0.2131 - val_loss: 4.0875 - learning_rate: 1.5000e-05
+Epoch 22/60
+51/51 - 14s - 276ms/step - accuracy: 0.8363 - loss: 0.5140 - val_accuracy: 0.5328 - val_loss: 1.3612 - learning_rate: 1.0000e-05
+Epoch 23/60
+51/51 - 14s - 282ms/step - accuracy: 0.8366 - loss: 0.5112 - val_accuracy: 0.5022 - val_loss: 1.8338 - learning_rate: 1.0000e-05
+Training took 424s
+Evaluating...
+  PlantVillage test (lab, in-domain): loss=1.2031 acc=0.5706
+  PlantDoc (field, out-of-domain): loss=6.5574 acc=0.1156
+DONE {
+  "experiment": "tomato",
+  "architecture": "mobilenetv3small",
+  "n_classes": 8,
+  "img_size": 96,
+  "n_train": 3201,
+  "n_val": 685,
+  "n_test": 687,
+  "n_field": 744,
+  "train_time_sec": 423.73216557502747,
+  "epochs_run": 23,
+  "params": 943736,
+  "pv_test": {
+    "loss": 1.2031339406967163,
+    "accuracy": 0.5705968141555786
+  },
+  "pd_field": {
+    "loss": 6.557399272918701,
+    "accuracy": 0.11559139937162399
+  }
+}

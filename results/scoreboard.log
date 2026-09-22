@@ -1,0 +1,16 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789912871.814756    1469 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789912871.854304    1469 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789912873.347181    1469 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+splits: lab=687 field_full=744 field_fttest=584 (held out from every variant)
+From-scratch baseline        lab= 78.7%  field_full= 12.1%  field_fttest= 12.2%  Δ= 66.6pp
++ full fine-tune             lab= 45.6%  field_full= 16.1%  field_fttest= 14.6%  Δ= 31.0pp
++ head-only fine-tune        lab= 62.9%  field_full= 16.3%  field_fttest= 15.6%  Δ= 47.3pp
++ L2-SP fine-tune            lab= 33.5%  field_full= 28.4%  field_fttest= 17.8%  Δ= 15.7pp
++ CutMix                     lab= 90.5%  field_full= 15.7%  field_fttest= 16.3%  Δ= 74.3pp
+ImageNet-pretrained          lab= 97.2%  field_full= 22.2%  field_fttest= 23.3%  Δ= 73.9pp
+Pretrained + head-only       lab= 92.0%  field_full= 33.5%  field_fttest= 27.4%  Δ= 64.6pp
+Pretrained + L2-SP           lab= 75.4%  field_full= 41.7%  field_fttest= 30.0%  Δ= 45.4pp
+DONE -> unified_scoreboard.json

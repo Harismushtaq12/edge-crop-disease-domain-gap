@@ -1,0 +1,10 @@
+# Full pipeline (training, quantization, Grad-CAM, memory audit)
+tensorflow==2.21.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+pillow>=10.0
+
+# Results notebook only needs the four below
+# numpy, pandas, matplotlib, jupyter
+jupyter>=1.0

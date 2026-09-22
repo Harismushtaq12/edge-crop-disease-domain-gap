@@ -1,0 +1,37 @@
+{
+  "experiment": "tomato",
+  "variant": "imagenet_pretrained_224px",
+  "backbone_source": "d-li14/mobilenetv2.pytorch mobilenetv2_1.0-0c6065bc.pth (72.8% ImageNet top-1, 224-native)",
+  "alpha": 1.0,
+  "img_size": 224,
+  "batch_size": 16,
+  "n_classes": 8,
+  "n_train": 3201,
+  "n_val": 685,
+  "n_test": 687,
+  "n_field": 744,
+  "train_time_sec": 6513.4052929878235,
+  "epochs_run": 27,
+  "params": 2268232,
+  "pv_test": {
+    "loss": 0.04045633226633072,
+    "accuracy": 0.9854439496994019
+  },
+  "pd_field": {
+    "loss": 6.891098976135254,
+    "accuracy": 0.28629031777381897
+  },
+  "reference_96px_pretrained": {
+    "lab": 0.9723435044288635,
+    "field": 0.22177419066429138
+  },
+  "reference_96px_scratch": {
+    "lab": 0.7874817848205566,
+    "field": 0.12096773833036423
+  },
+  "delta_vs_96px_pretrained": {
+    "lab": 0.01310044527053833,
+    "field": 0.06451612710952759
+  },
+  "delta_domain_pp": 69.91536319255829
+}

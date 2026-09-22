@@ -1,0 +1,61 @@
+{
+  "baseline_fp32_acc": 0.5705967976710334,
+  "all_layers_quantized_acc": 0.18340611353711792,
+  "se_only_quantized_acc": 0.5720524017467249,
+  "non_se_only_quantized_acc": 0.18340611353711792,
+  "per_se_block": {
+    "expanded_conv": {
+      "acc": 0.5720524017467249,
+      "drop": -0.0014556040756914523
+    },
+    "expanded_conv_10": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_3": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_4": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_5": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_6": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_7": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_8": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    },
+    "expanded_conv_9": {
+      "acc": 0.5705967976710334,
+      "drop": 0.0
+    }
+  },
+  "non_se_depth_breakdown": {
+    "early_third": {
+      "acc": 0.18340611353711792,
+      "drop": 0.38719068413391555,
+      "n_layers": 22
+    },
+    "middle_third": {
+      "acc": 0.5691411935953421,
+      "drop": 0.0014556040756913413,
+      "n_layers": 23
+    },
+    "late_third": {
+      "acc": 0.5749636098981077,
+      "drop": -0.004366812227074246,
+      "n_layers": 23
+    }
+  }
+}

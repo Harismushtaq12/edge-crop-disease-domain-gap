@@ -1,0 +1,132 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789911790.284847     391 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789911809.920786     391 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789911817.396588     391 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[stacked] split: ft_train=120 ft_val=40 ft_test=584
+
+BEFORE (pretrained, no field data): ft_test=0.2329 lab=0.9723 full_field=0.2218
+
+=== stacked: pretrained + head-only fine-tune ===
+  trainable params: 10248
+/usr/local/lib/python3.11/dist-packages/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+  epoch 1: val_acc=0.2750
+  epoch 2: val_acc=0.2750
+  epoch 3: val_acc=0.2750
+  epoch 4: val_acc=0.3000
+  epoch 5: val_acc=0.3250
+  epoch 6: val_acc=0.3500
+  epoch 7: val_acc=0.3500
+  epoch 8: val_acc=0.3750
+  epoch 9: val_acc=0.3750
+  epoch 10: val_acc=0.3750
+  epoch 11: val_acc=0.4000
+  epoch 12: val_acc=0.4250
+  epoch 13: val_acc=0.4000
+  epoch 14: val_acc=0.3750
+  epoch 15: val_acc=0.3750
+  epoch 16: val_acc=0.3750
+  epoch 17: val_acc=0.3750
+  epoch 18: val_acc=0.3750
+  early stop at epoch 18
+  head-only: {'ft_val_accuracy': 0.425, 'ft_test_accuracy': 0.273972602739726, 'lab_accuracy': 0.9199417758369723, 'full_field_accuracy': 0.3346774193548387}
+
+=== stacked: pretrained + L2-SP alpha=0.01 ===
+  epoch 1: val_acc=0.2250
+  epoch 2: val_acc=0.3250
+  epoch 3: val_acc=0.3000
+  epoch 4: val_acc=0.3250
+  epoch 5: val_acc=0.3000
+  epoch 6: val_acc=0.3500
+  epoch 7: val_acc=0.3500
+  epoch 8: val_acc=0.4000
+  epoch 9: val_acc=0.4000
+  epoch 10: val_acc=0.4250
+  epoch 11: val_acc=0.4250
+  epoch 12: val_acc=0.4500
+  epoch 13: val_acc=0.4000
+  epoch 14: val_acc=0.3750
+  epoch 15: val_acc=0.4250
+  epoch 16: val_acc=0.4250
+  epoch 17: val_acc=0.4250
+  epoch 18: val_acc=0.4000
+  early stop at epoch 18
+  alpha=0.01: val=0.4500 ft_test=0.2997 lab=0.7540 field=0.4167
+
+=== stacked: pretrained + L2-SP alpha=0.1 ===
+  epoch 1: val_acc=0.2750
+  epoch 2: val_acc=0.2500
+  epoch 3: val_acc=0.2750
+  epoch 4: val_acc=0.3000
+  epoch 5: val_acc=0.3500
+  epoch 6: val_acc=0.3500
+  epoch 7: val_acc=0.3750
+  epoch 8: val_acc=0.4250
+  epoch 9: val_acc=0.4000
+  epoch 10: val_acc=0.3750
+  epoch 11: val_acc=0.4000
+  epoch 12: val_acc=0.3750
+  epoch 13: val_acc=0.4000
+  epoch 14: val_acc=0.3750
+  early stop at epoch 14
+  alpha=0.1: val=0.4250 ft_test=0.2860 lab=0.7496 field=0.3938
+
+SUMMARY (stacked: ImageNet-pretrained + few-shot field fine-tuning)
+  before          : ft_test=23.3%  lab=97.2%
+  head_only      : ft_test=27.4%  lab=92.0%  (full-field 33.5%)
+  l2sp           : ft_test=30.0%  lab=75.4%  (full-field 41.7%)
+DONE {
+  "experiment": "tomato",
+  "variant": "stacked_pretrained_plus_fieldfinetune",
+  "base_model": "model_tomato_pretrained_fp32.keras",
+  "selection_criterion": "ft_val_accuracy (ft_test never used for model selection)",
+  "ft_train_n": 120,
+  "ft_val_n": 40,
+  "ft_test_n": 584,
+  "total_time_sec": 771.6280651092529,
+  "before": {
+    "ft_test_accuracy": 0.2328767123287671,
+    "lab_accuracy": 0.9723435225618632,
+    "full_field_accuracy": 0.2217741935483871
+  },
+  "after": {
+    "head_only": {
+      "ft_val_accuracy": 0.425,
+      "ft_test_accuracy": 0.273972602739726,
+      "lab_accuracy": 0.9199417758369723,
+      "full_field_accuracy": 0.3346774193548387
+    },
+    "l2sp": {
+      "alpha_selected": 0.01,
+      "ft_val_accuracy": 0.45,
+      "ft_test_accuracy": 0.2996575342465753,
+      "lab_accuracy": 0.7540029112081513,
+      "full_field_accuracy": 0.4166666666666667,
+      "all_alpha_results": [
+        {
+          "alpha": 0.01,
+          "ft_val_acc": 0.45,
+          "ft_test_acc": 0.2996575342465753,
+          "lab_acc": 0.7540029112081513,
+          "full_field_acc": 0.4166666666666667
+        },
+        {
+          "alpha": 0.1,
+          "ft_val_acc": 0.425,
+          "ft_test_acc": 0.285958904109589,
+          "lab_acc": 0.7496360989810772,
+          "full_field_acc": 0.39381720430107525
+        }
+      ]
+    }
+  },
+  "reference_from_scratch_baseline": {
+    "note": "Section V-E numbers, from-scratch backbone, same split",
+    "headft_ft_test": 0.156,
+    "headft_lab": 0.629,
+    "l2sp_ft_test": 0.178,
+    "l2sp_lab": 0.335
+  }
+}

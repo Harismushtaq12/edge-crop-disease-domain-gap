@@ -1,0 +1,17 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789913516.478953    1829 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789913516.521473    1829 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789913517.938590    1829 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+scoring: model_tomato_pretrained_l2sp_fp32.keras
+Grad-CAM target layer: block_13_expand_relu6, output shape (None, 6, 6, 576) (expect 6x6, matching the baseline/CutMix analysis's relative depth)
+/usr/local/lib/python3.11/dist-packages/keras/src/models/functional.py:259: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['input']
+Received: inputs=Tensor(shape=(1, 96, 96, 3))
+  warnings.warn(msg)
+Scored 623 field images (0 skipped: no usable bbox match)
+All field images: n=623  mean energy_in_box=0.492  mean chance=0.487  mean excess=+0.005 [95% CI -0.004, +0.014]  median energy_in_box=0.465
+Correctly classified field images: n=249  mean energy_in_box=0.507  mean chance=0.484  mean excess=+0.023 [95% CI +0.008, +0.037]  median energy_in_box=0.491
+Misclassified field images: n=374  mean energy_in_box=0.482  mean chance=0.489  mean excess=-0.007 [95% CI -0.018, +0.005]  median energy_in_box=0.459
+Saved gradcam_bbox_energy_stacked_results.json

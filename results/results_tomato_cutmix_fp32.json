@@ -1,0 +1,26 @@
+{
+  "experiment": "tomato",
+  "variant": "cutmix_training",
+  "cutmix_alpha": 1.0,
+  "n_classes": 8,
+  "img_size": 96,
+  "n_train": 3201,
+  "n_val": 685,
+  "n_test": 687,
+  "n_field": 744,
+  "train_time_sec": 3097.1032721996307,
+  "epochs_run": 60,
+  "params": 1392312,
+  "pv_test": {
+    "loss": 0.39479801058769226,
+    "accuracy": 0.9053857326507568
+  },
+  "pd_field": {
+    "loss": 3.0592880249023438,
+    "accuracy": 0.1572580635547638
+  },
+  "baseline_pv_test_acc": 0.7874817848205566,
+  "baseline_pd_field_acc": 0.12096773833036423,
+  "delta_lab_acc": 0.1179039478302002,
+  "delta_field_acc": 0.03629032522439957
+}

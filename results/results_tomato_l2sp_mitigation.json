@@ -1,0 +1,39 @@
+{
+  "experiment": "tomato",
+  "architecture": "mobilenetv2",
+  "tag": "tomato",
+  "method": "l2sp",
+  "alpha_candidates": [
+    0.01,
+    0.1
+  ],
+  "alpha_selected": 0.01,
+  "selection_criterion": "ft_val_accuracy (ft_test never used for model selection)",
+  "ft_train_n": 120,
+  "ft_val_n": 40,
+  "ft_test_n": 584,
+  "total_time_sec": 442.47813534736633,
+  "before": {
+    "ft_test_accuracy": 0.12157534246575342,
+    "lab_accuracy": 0.7874818049490538
+  },
+  "after": {
+    "ft_test_accuracy": 0.1780821917808219,
+    "lab_accuracy": 0.33478893740902477,
+    "ft_val_accuracy": 0.325
+  },
+  "all_alpha_results": [
+    {
+      "alpha": 0.01,
+      "ft_val_acc": 0.325,
+      "ft_test_acc": 0.1780821917808219,
+      "lab_acc": 0.33478893740902477
+    },
+    {
+      "alpha": 0.1,
+      "ft_val_acc": 0.25,
+      "ft_test_acc": 0.1780821917808219,
+      "lab_acc": 0.3056768558951965
+    }
+  ]
+}

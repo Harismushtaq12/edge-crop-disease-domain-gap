@@ -1,0 +1,89 @@
+{
+  "img_size": 96,
+  "split_seed": 123,
+  "n_lab": 687,
+  "n_field_full": 744,
+  "n_field_fttest": 584,
+  "variants": [
+    {
+      "model": "model_tomato_fp32.keras",
+      "label": "From-scratch baseline",
+      "preproc": "scale",
+      "lab": 0.7874818049490538,
+      "field_full": 0.12096774193548387,
+      "field_fttest": 0.12157534246575342,
+      "delta_domain_fttest_pp": 66.59064624833005,
+      "uses_field_data": false
+    },
+    {
+      "model": "model_tomato_finetuned_fp32.keras",
+      "label": "+ full fine-tune",
+      "preproc": "scale",
+      "lab": 0.4556040756914119,
+      "field_full": 0.16129032258064516,
+      "field_fttest": 0.14554794520547945,
+      "delta_domain_fttest_pp": 31.00561304859325,
+      "uses_field_data": true
+    },
+    {
+      "model": "model_tomato_headft_fp32.keras",
+      "label": "+ head-only fine-tune",
+      "preproc": "scale",
+      "lab": 0.62882096069869,
+      "field_full": 0.16263440860215053,
+      "field_fttest": 0.1558219178082192,
+      "delta_domain_fttest_pp": 47.29990428904708,
+      "uses_field_data": true
+    },
+    {
+      "model": "model_tomato_l2sp_fp32.keras",
+      "label": "+ L2-SP fine-tune",
+      "preproc": "scale",
+      "lab": 0.33478893740902477,
+      "field_full": 0.28360215053763443,
+      "field_fttest": 0.1780821917808219,
+      "delta_domain_fttest_pp": 15.670674562820286,
+      "uses_field_data": true
+    },
+    {
+      "model": "model_tomato_cutmix_fp32.keras",
+      "label": "+ CutMix",
+      "preproc": "scale",
+      "lab": 0.9053857350800583,
+      "field_full": 0.15725806451612903,
+      "field_fttest": 0.16267123287671234,
+      "delta_domain_fttest_pp": 74.27145022033459,
+      "uses_field_data": false
+    },
+    {
+      "model": "model_tomato_pretrained_fp32.keras",
+      "label": "ImageNet-pretrained",
+      "preproc": "torchvision",
+      "lab": 0.9723435225618632,
+      "field_full": 0.2217741935483871,
+      "field_fttest": 0.2328767123287671,
+      "delta_domain_fttest_pp": 73.94668102330961,
+      "uses_field_data": false
+    },
+    {
+      "model": "model_tomato_pretrained_headft_fp32.keras",
+      "label": "Pretrained + head-only",
+      "preproc": "torchvision",
+      "lab": 0.9199417758369723,
+      "field_full": 0.3346774193548387,
+      "field_fttest": 0.273972602739726,
+      "delta_domain_fttest_pp": 64.59691730972463,
+      "uses_field_data": true
+    },
+    {
+      "model": "model_tomato_pretrained_l2sp_fp32.keras",
+      "label": "Pretrained + L2-SP",
+      "preproc": "torchvision",
+      "lab": 0.7540029112081513,
+      "field_full": 0.4166666666666667,
+      "field_fttest": 0.2996575342465753,
+      "delta_domain_fttest_pp": 45.4345376961576,
+      "uses_field_data": true
+    }
+  ]
+}

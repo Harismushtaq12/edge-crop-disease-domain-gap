@@ -1,0 +1,96 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789856339.192333    1241 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1789856339.230725    1241 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789856340.503363    1241 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[tomato] L2-SP field-finetune split: ft_train=120 ft_val=40 ft_test=584
+
+=== L2-SP alpha=0.01 ===
+  epoch 1: val_acc=0.0750
+  epoch 2: val_acc=0.0750
+  epoch 3: val_acc=0.0750
+  epoch 4: val_acc=0.0750
+  epoch 5: val_acc=0.1000
+  epoch 6: val_acc=0.1000
+  epoch 7: val_acc=0.1250
+  epoch 8: val_acc=0.1250
+  epoch 9: val_acc=0.1500
+  epoch 10: val_acc=0.1750
+  epoch 11: val_acc=0.1500
+  epoch 12: val_acc=0.1750
+  epoch 13: val_acc=0.2000
+  epoch 14: val_acc=0.2250
+  epoch 15: val_acc=0.2250
+  epoch 16: val_acc=0.2250
+  epoch 17: val_acc=0.3250
+  epoch 18: val_acc=0.3000
+  epoch 19: val_acc=0.3000
+  epoch 20: val_acc=0.3250
+  alpha=0.01: val_acc=0.3250 ft_test_acc=0.1781 lab_acc=0.3348
+
+=== L2-SP alpha=0.1 ===
+  epoch 1: val_acc=0.0500
+  epoch 2: val_acc=0.0750
+  epoch 3: val_acc=0.1000
+  epoch 4: val_acc=0.1500
+  epoch 5: val_acc=0.1250
+  epoch 6: val_acc=0.1000
+  epoch 7: val_acc=0.1500
+  epoch 8: val_acc=0.1500
+  epoch 9: val_acc=0.1750
+  epoch 10: val_acc=0.1250
+  epoch 11: val_acc=0.1500
+  epoch 12: val_acc=0.1250
+  epoch 13: val_acc=0.2250
+  epoch 14: val_acc=0.2000
+  epoch 15: val_acc=0.2250
+  epoch 16: val_acc=0.1750
+  epoch 17: val_acc=0.1750
+  epoch 18: val_acc=0.2250
+  epoch 19: val_acc=0.2500
+  epoch 20: val_acc=0.2250
+  alpha=0.1: val_acc=0.2500 ft_test_acc=0.1781 lab_acc=0.3057
+
+SUMMARY (L2-SP, alpha=0.01 selected by ft_val)
+  Field (ft_test) accuracy: 12.2% -> 17.8%  (delta +5.7 pp)
+  Lab accuracy:             78.7% -> 33.5%  (delta -45.3 pp)
+DONE {
+  "experiment": "tomato",
+  "architecture": "mobilenetv2",
+  "tag": "tomato",
+  "method": "l2sp",
+  "alpha_candidates": [
+    0.01,
+    0.1
+  ],
+  "alpha_selected": 0.01,
+  "selection_criterion": "ft_val_accuracy (ft_test never used for model selection)",
+  "ft_train_n": 120,
+  "ft_val_n": 40,
+  "ft_test_n": 584,
+  "total_time_sec": 442.47813534736633,
+  "before": {
+    "ft_test_accuracy": 0.12157534246575342,
+    "lab_accuracy": 0.7874818049490538
+  },
+  "after": {
+    "ft_test_accuracy": 0.1780821917808219,
+    "lab_accuracy": 0.33478893740902477,
+    "ft_val_accuracy": 0.325
+  },
+  "all_alpha_results": [
+    {
+      "alpha": 0.01,
+      "ft_val_acc": 0.325,
+      "ft_test_acc": 0.1780821917808219,
+      "lab_acc": 0.33478893740902477
+    },
+    {
+      "alpha": 0.1,
+      "ft_val_acc": 0.25,
+      "ft_test_acc": 0.1780821917808219,
+      "lab_acc": 0.3056768558951965
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "experiment": "tomato",
+  "n_classes": 8,
+  "img_size": 96,
+  "fp32_keras_size_mb": 17.194471,
+  "fp32_tflite_size_mb": 5.458564,
+  "int8_tflite_size_mb": 1.766096,
+  "size_reduction_x": 3.0907515786231325,
+  "int8": {
+    "pv_test_accuracy": 0.7947598253275109,
+    "pd_field_accuracy": 0.11693548387096774,
+    "latency_pv_test": {
+      "mean_ms": 0.8831136841196896,
+      "p50_ms": 0.826196999696549,
+      "p95_ms": 1.1802386998169785
+    },
+    "latency_pd_field": {
+      "mean_ms": 0.8674124395152801,
+      "p50_ms": 0.8451544997569727,
+      "p95_ms": 0.9531333002541942
+    }
+  },
+  "fp32_tflite": {
+    "pv_test_accuracy": 0.7874818049490538,
+    "pd_field_accuracy": 0.12096774193548387,
+    "latency_pv_test": {
+      "mean_ms": 1.4875731601190096,
+      "p50_ms": 1.4541020000251592,
+      "p95_ms": 1.6474517999995433
+    },
+    "latency_pd_field": {
+      "mean_ms": 1.547191506721256,
+      "p50_ms": 1.5017650000572758,
+      "p95_ms": 1.8205755499593579
+    }
+  },
+  "note": "Latency measured via TFLite Interpreter single-image invoke() calls on this workspace's CPU (2 vCPU, no GPU/NPU) -- a desktop/server CPU benchmark, not measured on physical embedded/microcontroller hardware."
+}

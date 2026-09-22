@@ -1,0 +1,19 @@
+{
+  "tag": "tomato_mobilenetv3small",
+  "experiment": "tomato",
+  "architecture": "mobilenetv3small",
+  "n_classes": 8,
+  "fp32_size_mb": 11.901953,
+  "int8_size_mb": 1.240424,
+  "size_reduction_x": 9.595068299226716,
+  "int8_lab_accuracy": 0.13100436681222707,
+  "int8_field_accuracy": 0.08198924731182795,
+  "latency_lab": {
+    "mean_ms": 1.1343807816591156,
+    "p50_ms": 1.1102150001534028
+  },
+  "latency_field": {
+    "mean_ms": 1.1328963790309097,
+    "p50_ms": 1.1192095000751578
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "field": {
+    "Tomato___Bacterial_spot": [
+      0.01818181818181818,
+      2,
+      110
+    ],
+    "Tomato___Early_blight": [
+      0.38636363636363635,
+      34,
+      88
+    ],
+    "Tomato___Late_blight": [
+      0.09009009009009009,
+      10,
+      111
+    ],
+    "Tomato___Septoria_leaf_spot": [
+      0.046357615894039736,
+      7,
+      151
+    ],
+    "Tomato___Tomato_mosaic_virus": [
+      0.0,
+      0,
+      54
+    ],
+    "Tomato___healthy": [
+      0.31746031746031744,
+      20,
+      63
+    ],
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": [
+      0.14473684210526316,
+      11,
+      76
+    ],
+    "Tomato___Leaf_Mold": [
+      0.03296703296703297,
+      3,
+      91
+    ]
+  },
+  "lab": {
+    "Tomato___Bacterial_spot": [
+      0.8888888888888888,
+      80,
+      90
+    ],
+    "Tomato___Early_blight": [
+      0.6777777777777778,
+      61,
+      90
+    ],
+    "Tomato___Late_blight": [
+      0.6888888888888889,
+      62,
+      90
+    ],
+    "Tomato___Septoria_leaf_spot": [
+      0.6222222222222222,
+      56,
+      90
+    ],
+    "Tomato___Tomato_mosaic_virus": [
+      0.8947368421052632,
+      51,
+      57
+    ],
+    "Tomato___healthy": [
+      0.9555555555555556,
+      86,
+      90
+    ],
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": [
+      0.8888888888888888,
+      80,
+      90
+    ],
+    "Tomato___Leaf_Mold": [
+      0.7777777777777778,
+      70,
+      90
+    ]
+  }
+}

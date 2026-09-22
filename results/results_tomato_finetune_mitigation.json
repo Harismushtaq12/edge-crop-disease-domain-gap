@@ -1,0 +1,102 @@
+{
+  "experiment": "tomato",
+  "architecture": "mobilenetv2",
+  "tag": "tomato",
+  "ft_train_n": 120,
+  "ft_val_n": 40,
+  "ft_test_n": 584,
+  "ft_epochs_run": 8,
+  "ft_time_sec": 44.23125410079956,
+  "before": {
+    "ft_test_accuracy": 0.12157534062862396,
+    "lab_accuracy": 0.7874817848205566
+  },
+  "after": {
+    "ft_test_accuracy": 0.14554794132709503,
+    "lab_accuracy": 0.45560407638549805
+  },
+  "before_perclass": {
+    "13": {
+      "acc": 0.02222222276031971,
+      "n": 90,
+      "class_name": "Tomato___Bacterial_spot"
+    },
+    "14": {
+      "acc": 0.3970588147640228,
+      "n": 68,
+      "class_name": "Tomato___Early_blight"
+    },
+    "15": {
+      "acc": 0.1318681389093399,
+      "n": 91,
+      "class_name": "Tomato___Late_blight"
+    },
+    "16": {
+      "acc": 0.04580152779817581,
+      "n": 131,
+      "class_name": "Tomato___Septoria_leaf_spot"
+    },
+    "17": {
+      "acc": 0.0,
+      "n": 34,
+      "class_name": "Tomato___Tomato_mosaic_virus"
+    },
+    "18": {
+      "acc": 0.302325576543808,
+      "n": 43,
+      "class_name": "Tomato___healthy"
+    },
+    "19": {
+      "acc": 0.1428571492433548,
+      "n": 56,
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    },
+    "20": {
+      "acc": 0.0422535203397274,
+      "n": 71,
+      "class_name": "Tomato___Leaf_Mold"
+    }
+  },
+  "after_perclass": {
+    "13": {
+      "acc": 0.12222222238779068,
+      "n": 90,
+      "class_name": "Tomato___Bacterial_spot"
+    },
+    "14": {
+      "acc": 0.2647058963775635,
+      "n": 68,
+      "class_name": "Tomato___Early_blight"
+    },
+    "15": {
+      "acc": 0.10989011079072952,
+      "n": 91,
+      "class_name": "Tomato___Late_blight"
+    },
+    "16": {
+      "acc": 0.11450381577014923,
+      "n": 131,
+      "class_name": "Tomato___Septoria_leaf_spot"
+    },
+    "17": {
+      "acc": 0.0882352963089943,
+      "n": 34,
+      "class_name": "Tomato___Tomato_mosaic_virus"
+    },
+    "18": {
+      "acc": 0.11627907305955887,
+      "n": 43,
+      "class_name": "Tomato___healthy"
+    },
+    "19": {
+      "acc": 0.25,
+      "n": 56,
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    },
+    "20": {
+      "acc": 0.1267605572938919,
+      "n": 71,
+      "class_name": "Tomato___Leaf_Mold"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tag": "tomato_efficientnetb0",
+  "experiment": "tomato",
+  "architecture": "efficientnetb0",
+  "n_classes": 8,
+  "fp32_size_mb": 49.384817,
+  "int8_size_mb": 4.936912,
+  "size_reduction_x": 10.003179517884863,
+  "int8_lab_accuracy": 0.6215429403202329,
+  "int8_field_accuracy": 0.13440860215053763,
+  "latency_lab": {
+    "mean_ms": 1.6498096710532266,
+    "p50_ms": 1.6030289998525404
+  },
+  "latency_field": {
+    "mean_ms": 1.7290639583360379,
+    "p50_ms": 1.6927880001276208
+  }
+}

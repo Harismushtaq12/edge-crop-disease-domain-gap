@@ -1,0 +1,4400 @@
+{
+  "n_scored": 623,
+  "n_skipped": 0,
+  "all": {
+    "n": 623,
+    "mean_energy_in_box": 0.5015727855599452,
+    "median_energy_in_box": 0.49524360900960596,
+    "mean_chance": 0.48668312242930095,
+    "mean_excess": 0.01488966313064413,
+    "excess_ci95": [
+      0.005353548338141476,
+      0.024248502520311247
+    ]
+  },
+  "correct": {
+    "n": 80,
+    "mean_energy_in_box": 0.477693086684552,
+    "median_energy_in_box": 0.47727891757740115,
+    "mean_chance": 0.45609210927127763,
+    "mean_excess": 0.021600977413274224,
+    "excess_ci95": [
+      -0.0032545399560121,
+      0.04535860442962088
+    ]
+  },
+  "misclassified": {
+    "n": 543,
+    "mean_energy_in_box": 0.5050909732395611,
+    "median_energy_in_box": 0.4984838772161497,
+    "mean_chance": 0.4911900856938348,
+    "mean_excess": 0.013900887545726257,
+    "excess_ci95": [
+      0.0035797498331849396,
+      0.02384031044069038
+    ]
+  },
+  "per_image": [
+    {
+      "file": "tomato_V8.jpg",
+      "correct": false,
+      "energy_in_box": 0.8343648639175951,
+      "chance": 0.7735934065934066,
+      "n_boxes": 4
+    },
+    {
+      "file": "Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+      "correct": false,
+      "energy_in_box": 0.7710559426679211,
+      "chance": 0.6839391634980989,
+      "n_boxes": 1
+    },
+    {
+      "file": "%2320+Bacterial+Spot+and+Speck.jpg",
+      "correct": false,
+      "energy_in_box": 0.013400340766662681,
+      "chance": 0.1009837962962963,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_bacterial-speck_01_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.6115849242248648,
+      "chance": 0.7389991769547325,
+      "n_boxes": 1
+    },
+    {
+      "file": "bact-spot-fig-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.5242316241184332,
+      "chance": 0.4702159054831966,
+      "n_boxes": 1
+    },
+    {
+      "file": "Bacterial_spots563.jpg",
+      "correct": false,
+      "energy_in_box": 0.8221209425896928,
+      "chance": 0.70765625,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tom_Bact3.jpg",
+      "correct": false,
+      "energy_in_box": 0.12337787300708271,
+      "chance": 0.2642282608695652,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tom_Bact7.jpg",
+      "correct": false,
+      "energy_in_box": 0.3012421908556912,
+      "chance": 0.49066231343283584,
+      "n_boxes": 5
+    },
+    {
+      "file": "10-3-bacterial-speck-on-tomato-RON.jpg",
+      "correct": false,
+      "energy_in_box": 0.991913024335494,
+      "chance": 0.7017796610169491,
+      "n_boxes": 1
+    },
+    {
+      "file": "110608-01-8356c-lg.jpg",
+      "correct": false,
+      "energy_in_box": 0.7928114142537291,
+      "chance": 0.7292786015340219,
+      "n_boxes": 1
+    },
+    {
+      "file": "71c944d61b08f6373a9a38d3c250cb2e.jpg",
+      "correct": false,
+      "energy_in_box": 0.4153129269546376,
+      "chance": 0.3807756666306812,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_bacterial-speck_03_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.3636423380516721,
+      "chance": 0.2308955778520996,
+      "n_boxes": 3
+    },
+    {
+      "file": "pp1244-05.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.9840773450128747,
+      "chance": 0.9718617584745762,
+      "n_boxes": 1
+    },
+    {
+      "file": "13582051_f520.jpg",
+      "correct": false,
+      "energy_in_box": 0.5385646317903275,
+      "chance": 0.4252192252192252,
+      "n_boxes": 5
+    },
+    {
+      "file": "a3fb24f84fe70e5d37352d13106531d6.jpg",
+      "correct": false,
+      "energy_in_box": 0.08432186943852585,
+      "chance": 0.10630493255934188,
+      "n_boxes": 1
+    },
+    {
+      "file": "bacterial%20leaf%20spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.3806359211525494,
+      "chance": 0.5178932338786111,
+      "n_boxes": 4
+    },
+    {
+      "file": "RyBx7MH.jpg",
+      "correct": false,
+      "energy_in_box": 0.5848575619137969,
+      "chance": 0.6119890140508697,
+      "n_boxes": 1
+    },
+    {
+      "file": "latest?cb=20100808132744.jpg",
+      "correct": false,
+      "energy_in_box": 0.007992738784277037,
+      "chance": 0.44160700079554494,
+      "n_boxes": 1
+    },
+    {
+      "file": "Leaf%2Bspot%2B1000.jpg",
+      "correct": false,
+      "energy_in_box": 0.9748356637963694,
+      "chance": 0.9286827053613157,
+      "n_boxes": 1
+    },
+    {
+      "file": "BacterialSpot07.jpg",
+      "correct": false,
+      "energy_in_box": 0.025919604887455042,
+      "chance": 0.023170572916666667,
+      "n_boxes": 5
+    },
+    {
+      "file": "Jeter%20Mtn%20Farm_7053.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.21450303443336977,
+      "chance": 0.26207407407407407,
+      "n_boxes": 1
+    },
+    {
+      "file": "LyraEDISServlet.jpg",
+      "correct": false,
+      "energy_in_box": 0.22027527090323545,
+      "chance": 0.3057942708333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "Bacterial_spots562.jpg",
+      "correct": false,
+      "energy_in_box": 0.6731369021278489,
+      "chance": 0.5962479166666667,
+      "n_boxes": 4
+    },
+    {
+      "file": "stock-photo-bacterial-spot-on-tomato-559799107.jpg",
+      "correct": false,
+      "energy_in_box": 0.8932271515180805,
+      "chance": 0.6822233413068111,
+      "n_boxes": 2
+    },
+    {
+      "file": "05-069f1.jpg",
+      "correct": false,
+      "energy_in_box": 0.4406295323016384,
+      "chance": 0.50040691123075,
+      "n_boxes": 1
+    },
+    {
+      "file": "bc34aec4ea7f60a64e380fda44c2f380.jpg",
+      "correct": false,
+      "energy_in_box": 0.5433874236890233,
+      "chance": 0.3983883683282481,
+      "n_boxes": 4
+    },
+    {
+      "file": "266914753eb19d87b80567baed1a0f66.jpg",
+      "correct": false,
+      "energy_in_box": 0.9033149518627153,
+      "chance": 0.8786527252678009,
+      "n_boxes": 1
+    },
+    {
+      "file": "Leaf-spots-on-tomato-leaves-Credits-Hank-Dankers_Q320.jpg",
+      "correct": false,
+      "energy_in_box": 0.5852252580681447,
+      "chance": 0.3817578125,
+      "n_boxes": 2
+    },
+    {
+      "file": "kg32-beefsteak-tomatoes-08_lg.jpg",
+      "correct": false,
+      "energy_in_box": 0.3284271560602173,
+      "chance": 0.34180638182801515,
+      "n_boxes": 2
+    },
+    {
+      "file": "Bacterial+Speck+-+Tomatoes.jpg",
+      "correct": false,
+      "energy_in_box": 0.6188657574093294,
+      "chance": 0.4024117327539381,
+      "n_boxes": 3
+    },
+    {
+      "file": "b-speck.jpg",
+      "correct": false,
+      "energy_in_box": 0.40872926213071703,
+      "chance": 0.4538791232638889,
+      "n_boxes": 1
+    },
+    {
+      "file": "Bacterial+Spot+-+Tomatoes.jpg",
+      "correct": false,
+      "energy_in_box": 0.3873907171261639,
+      "chance": 0.4106025774991292,
+      "n_boxes": 4
+    },
+    {
+      "file": "Tomato2_original.JPG?1472597932.jpg",
+      "correct": false,
+      "energy_in_box": 0.14910873276863126,
+      "chance": 0.13380088504796347,
+      "n_boxes": 12
+    },
+    {
+      "file": "FS547-4-big.jpg",
+      "correct": false,
+      "energy_in_box": 0.6095792404155048,
+      "chance": 0.60328125,
+      "n_boxes": 1
+    },
+    {
+      "file": "Paret-Fig-1-tomato-bacterial-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.30891384971931557,
+      "chance": 0.38169753086419755,
+      "n_boxes": 7
+    },
+    {
+      "file": "Bacterial_spots586.jpg",
+      "correct": false,
+      "energy_in_box": 0.43018468538008314,
+      "chance": 0.4744145833333333,
+      "n_boxes": 2
+    },
+    {
+      "file": "droppedImage_3.jpg",
+      "correct": false,
+      "energy_in_box": 0.8013253336649221,
+      "chance": 0.7916042780748663,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-plant-leaves-brown-spots-tomato-leaves-older-ones-with-spots.jpg",
+      "correct": false,
+      "energy_in_box": 0.2128684895445076,
+      "chance": 0.21165277777777777,
+      "n_boxes": 4
+    },
+    {
+      "file": "bacterial-spot-of-tomato-6-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.03075339172152111,
+      "chance": 0.0930425847998377,
+      "n_boxes": 3
+    },
+    {
+      "file": "Leaf%2Bsymptoms%2BMDA.jpg",
+      "correct": false,
+      "energy_in_box": 0.6479617273583291,
+      "chance": 0.5825101214574899,
+      "n_boxes": 3
+    },
+    {
+      "file": "Tomato%20bacterial%20canker.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.7182857818686912,
+      "chance": 0.7003936767578125,
+      "n_boxes": 1
+    },
+    {
+      "file": "05-069f9.jpg",
+      "correct": false,
+      "energy_in_box": 0.3967232855490983,
+      "chance": 0.4823029731005191,
+      "n_boxes": 1
+    },
+    {
+      "file": "Bacterial_spots2277.jpg",
+      "correct": false,
+      "energy_in_box": 0.4869839381669787,
+      "chance": 0.49550625,
+      "n_boxes": 1
+    },
+    {
+      "file": "250?cb=20100819110637.jpg",
+      "correct": false,
+      "energy_in_box": 0.181438937704225,
+      "chance": 0.276,
+      "n_boxes": 1
+    },
+    {
+      "file": "4-6%20Keep%20bacterial%20diseasesMARY%20-%20D.jpg",
+      "correct": false,
+      "energy_in_box": 0.09003113078422181,
+      "chance": 0.3455128205128205,
+      "n_boxes": 1
+    },
+    {
+      "file": "bacterial-speck-tomato-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.9025648629040897,
+      "chance": 0.6971338218462011,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-plant-diseases-identification-leaf-spot-tomato-disease-tomato-plant-fungus-identification.jpg",
+      "correct": false,
+      "energy_in_box": 0.24544987770858845,
+      "chance": 0.3508222222222222,
+      "n_boxes": 2
+    },
+    {
+      "file": "BacterialSpot06.jpg",
+      "correct": false,
+      "energy_in_box": 0.18183702140453806,
+      "chance": 0.2030829326923077,
+      "n_boxes": 17
+    },
+    {
+      "file": "59380.jpg",
+      "correct": false,
+      "energy_in_box": 0.546496618360035,
+      "chance": 0.4227609427609428,
+      "n_boxes": 1
+    },
+    {
+      "file": "bact-spot-leaf-big.jpg",
+      "correct": false,
+      "energy_in_box": 0.8710198529099135,
+      "chance": 0.8426920572916666,
+      "n_boxes": 1
+    },
+    {
+      "file": "bac.jpg",
+      "correct": false,
+      "energy_in_box": 0.7032731911584994,
+      "chance": 0.6298188405797102,
+      "n_boxes": 3
+    },
+    {
+      "file": "bacterial-spot-of-tomato-7-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.07887480101950337,
+      "chance": 0.051374009332399655,
+      "n_boxes": 1
+    },
+    {
+      "file": "bac_spot_tomato_leaf_l.jpg",
+      "correct": false,
+      "energy_in_box": 0.7477742086760549,
+      "chance": 0.506025,
+      "n_boxes": 1
+    },
+    {
+      "file": "Figure-1-6.jpg",
+      "correct": false,
+      "energy_in_box": 0.7657350391725533,
+      "chance": 0.690089225769043,
+      "n_boxes": 1
+    },
+    {
+      "file": "TomatoBacterialSpot2.jpg",
+      "correct": false,
+      "energy_in_box": 0.671415560512064,
+      "chance": 0.8375359228701215,
+      "n_boxes": 1
+    },
+    {
+      "file": "39765006175_e2f0da764d_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.5703168185618358,
+      "chance": 0.5803282319159335,
+      "n_boxes": 1
+    },
+    {
+      "file": "IN0335.jpg",
+      "correct": false,
+      "energy_in_box": 0.9565915510322067,
+      "chance": 0.9201680672268907,
+      "n_boxes": 2
+    },
+    {
+      "file": "bacterialspottomato2.jpg",
+      "correct": false,
+      "energy_in_box": 0.5342126066505931,
+      "chance": 0.7211333333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "Leafspotx450xBugwood.jpg",
+      "correct": false,
+      "energy_in_box": 0.6433093093254569,
+      "chance": 0.6794708994708994,
+      "n_boxes": 3
+    },
+    {
+      "file": "photo-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.24705279842450678,
+      "chance": 0.2696173333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "3182.jpg",
+      "correct": false,
+      "energy_in_box": 0.8035543076799733,
+      "chance": 0.7814605432912844,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_2348.jpg",
+      "correct": false,
+      "energy_in_box": 0.6338325643580687,
+      "chance": 0.6302611475554274,
+      "n_boxes": 5
+    },
+    {
+      "file": "38849847120_7ae02bd6c3_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.4268070719966446,
+      "chance": 0.38770772238514173,
+      "n_boxes": 1
+    },
+    {
+      "file": "30290.jpg",
+      "correct": false,
+      "energy_in_box": 0.7354412333389048,
+      "chance": 0.7031528234484417,
+      "n_boxes": 1
+    },
+    {
+      "file": "Bacterial_spots2276.jpg",
+      "correct": false,
+      "energy_in_box": 0.239847658855008,
+      "chance": 0.3629,
+      "n_boxes": 1
+    },
+    {
+      "file": "photo-764060.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3221981859098055,
+      "chance": 0.2943033854166667,
+      "n_boxes": 8
+    },
+    {
+      "file": "BCH%20small%20thumbnail%20for%20upload%20%2814%29.jpg",
+      "correct": false,
+      "energy_in_box": 0.49280510941216377,
+      "chance": 0.4370053475935829,
+      "n_boxes": 3
+    },
+    {
+      "file": "5114949114265600-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.7466494010337013,
+      "chance": 0.5591911764705882,
+      "n_boxes": 2
+    },
+    {
+      "file": "bacterial-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.27434643124175045,
+      "chance": 0.2765753307481752,
+      "n_boxes": 5
+    },
+    {
+      "file": "clothes014.jpg",
+      "correct": false,
+      "energy_in_box": 0.5504717832456908,
+      "chance": 0.44269166666666665,
+      "n_boxes": 2
+    },
+    {
+      "file": "beg.jpg",
+      "correct": false,
+      "energy_in_box": 0.24215100575089032,
+      "chance": 0.3624242424242424,
+      "n_boxes": 1
+    },
+    {
+      "file": "bacterial-speck-tomato-2.jpg",
+      "correct": true,
+      "energy_in_box": 0.5150990471571492,
+      "chance": 0.5429369383356807,
+      "n_boxes": 1
+    },
+    {
+      "file": "TC3.jpg",
+      "correct": false,
+      "energy_in_box": 0.8122092378744897,
+      "chance": 0.7917031484257872,
+      "n_boxes": 1
+    },
+    {
+      "file": "bac-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.6884041301750619,
+      "chance": 0.6248862757101923,
+      "n_boxes": 4
+    },
+    {
+      "file": "Tomato%20greenhouse%20phythotoxicity03F.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.49911224817060146,
+      "chance": 0.43590672810872394,
+      "n_boxes": 11
+    },
+    {
+      "file": "image5_300x300%2523.JPG?1472755422.jpg",
+      "correct": false,
+      "energy_in_box": 0.5720658483034533,
+      "chance": 0.6961555555555555,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato1A.jpg",
+      "correct": false,
+      "energy_in_box": 0.5699972756115577,
+      "chance": 0.6205307088576055,
+      "n_boxes": 1
+    },
+    {
+      "file": "patarea-bacteriana-frunzelor-pseudomonas-syringae-maculicola-31_5_2.jpg",
+      "correct": false,
+      "energy_in_box": 0.8696932187526186,
+      "chance": 0.8898863961813842,
+      "n_boxes": 1
+    },
+    {
+      "file": "BCH%20medium%20thumbnail%20for%20upload%20%2814%29.jpg",
+      "correct": false,
+      "energy_in_box": 0.31038457437869454,
+      "chance": 0.3978933333333333,
+      "n_boxes": 3
+    },
+    {
+      "file": "Bacterial-Spot-of-Tomato-Img-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.6703829319106239,
+      "chance": 0.5448288553551711,
+      "n_boxes": 4
+    },
+    {
+      "file": "tomato_xanthomonas_foliage.jpg",
+      "correct": false,
+      "energy_in_box": 0.6119965680502293,
+      "chance": 0.5401623894446861,
+      "n_boxes": 4
+    },
+    {
+      "file": "leaf-spot3-big.jpg",
+      "correct": false,
+      "energy_in_box": 0.7074774284387316,
+      "chance": 0.5623139610513831,
+      "n_boxes": 4
+    },
+    {
+      "file": "Bacterial_spots1300.jpg",
+      "correct": false,
+      "energy_in_box": 0.4644186073314968,
+      "chance": 0.4275791666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "Pest2371.jpg",
+      "correct": false,
+      "energy_in_box": 0.5761590856255363,
+      "chance": 0.7386416666666666,
+      "n_boxes": 1
+    },
+    {
+      "file": "Figure-3-7.jpg",
+      "correct": false,
+      "energy_in_box": 0.6253155896174996,
+      "chance": 0.4836802672558535,
+      "n_boxes": 2
+    },
+    {
+      "file": "pddl-highlights-fig-1-bact-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.29501077758374555,
+      "chance": 0.25761666666666666,
+      "n_boxes": 4
+    },
+    {
+      "file": "Bacterial-Leaf-Spot-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.6391961364956099,
+      "chance": 0.5322265625,
+      "n_boxes": 1
+    },
+    {
+      "file": "image3_original.JPG?1472755422.jpg",
+      "correct": false,
+      "energy_in_box": 0.8181605675588135,
+      "chance": 0.6885611979166667,
+      "n_boxes": 1
+    },
+    {
+      "file": "dscn3175.jpg",
+      "correct": false,
+      "energy_in_box": 0.44857701181921483,
+      "chance": 0.43609551230757504,
+      "n_boxes": 6
+    },
+    {
+      "file": "bugs-and-blight-061.jpg",
+      "correct": false,
+      "energy_in_box": 0.07852960176195899,
+      "chance": 0.1266176957550506,
+      "n_boxes": 4
+    },
+    {
+      "file": "039b47d574bc4bb8a14259a1cd96a741.jpg",
+      "correct": true,
+      "energy_in_box": 0.11539453622562663,
+      "chance": 0.17011014325822474,
+      "n_boxes": 1
+    },
+    {
+      "file": "100983448.jpg",
+      "correct": false,
+      "energy_in_box": 0.8262975357794755,
+      "chance": 0.7297911352040817,
+      "n_boxes": 1
+    },
+    {
+      "file": "Shoemaker_7068.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.5796581233670494,
+      "chance": 0.5928888888888889,
+      "n_boxes": 1
+    },
+    {
+      "file": "earlyblight21_.jpg",
+      "correct": false,
+      "energy_in_box": 0.0711012947690514,
+      "chance": 0.31207613196786355,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_early-blight_01_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.5719519700723493,
+      "chance": 0.49054001194079017,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_blight_early.jpg",
+      "correct": true,
+      "energy_in_box": 0.4777279799086204,
+      "chance": 0.3575415573053368,
+      "n_boxes": 6
+    },
+    {
+      "file": "blog_early_blight_628.jpg",
+      "correct": false,
+      "energy_in_box": 0.01289556019734961,
+      "chance": 0.28268433310611224,
+      "n_boxes": 3
+    },
+    {
+      "file": "BCH%20medium%20thumbnail%20for%20upload%20%2836%29.jpg",
+      "correct": true,
+      "energy_in_box": 0.5928587624969823,
+      "chance": 0.63272,
+      "n_boxes": 4
+    },
+    {
+      "file": "1576389-early%20blight%20symptoms.jpg",
+      "correct": false,
+      "energy_in_box": 0.8495826126663932,
+      "chance": 0.7356522436861849,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_q1hq-early-blight-5052_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.9442628771251173,
+      "chance": 0.9577333333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato-blight-large.jpg",
+      "correct": true,
+      "energy_in_box": 0.5532162198544063,
+      "chance": 0.5744609665427509,
+      "n_boxes": 1
+    },
+    {
+      "file": "early-blight-of-tomato-tomato-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.5536567508595501,
+      "chance": 0.5022333333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_2436w.jpg",
+      "correct": true,
+      "energy_in_box": 0.5443886023898219,
+      "chance": 0.43570625,
+      "n_boxes": 1
+    },
+    {
+      "file": "gn201410308259997ar-jpg.jpg",
+      "correct": false,
+      "energy_in_box": 0.3733184042508528,
+      "chance": 0.29991804223913543,
+      "n_boxes": 4
+    },
+    {
+      "file": "early-blight-closeup-sm.jpg",
+      "correct": false,
+      "energy_in_box": 0.5080687687063231,
+      "chance": 0.36959746885265754,
+      "n_boxes": 1
+    },
+    {
+      "file": "2373320.jpg",
+      "correct": true,
+      "energy_in_box": 0.44815849338422886,
+      "chance": 0.4258735042735043,
+      "n_boxes": 5
+    },
+    {
+      "file": "early-blight-pp-labeled_orig.jpg",
+      "correct": false,
+      "energy_in_box": 0.5545088392459082,
+      "chance": 0.5303136393268465,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomatoearlyblight.jpg",
+      "correct": true,
+      "energy_in_box": 0.21102283086640844,
+      "chance": 0.2758290816326531,
+      "n_boxes": 1
+    },
+    {
+      "file": "halleck_tomato_earlyblight__inline-half.jpg",
+      "correct": false,
+      "energy_in_box": 0.5742046326380321,
+      "chance": 0.4729283739184729,
+      "n_boxes": 1
+    },
+    {
+      "file": "early-blight-2x.jpg",
+      "correct": false,
+      "energy_in_box": 0.7527906381826055,
+      "chance": 0.6292173913043478,
+      "n_boxes": 1
+    },
+    {
+      "file": "Early_blight_1.jpg?1376579808.jpg",
+      "correct": true,
+      "energy_in_box": 0.29512947276393015,
+      "chance": 0.29952544031311157,
+      "n_boxes": 4
+    },
+    {
+      "file": "20080526-_DSC4211.jpg",
+      "correct": false,
+      "energy_in_box": 0.26031198263990163,
+      "chance": 0.19493701996927804,
+      "n_boxes": 9
+    },
+    {
+      "file": "IMG_0591.jpg",
+      "correct": false,
+      "energy_in_box": 0.41657844843104785,
+      "chance": 0.648125,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato-Early-Blight-e1513806873934.jpg",
+      "correct": false,
+      "energy_in_box": 0.6205487315009761,
+      "chance": 0.5641259370314843,
+      "n_boxes": 2
+    },
+    {
+      "file": "early%20blight%20%283%29.jpg?itok=UMYWI0xr.jpg",
+      "correct": false,
+      "energy_in_box": 0.569543699878885,
+      "chance": 0.5547791824297338,
+      "n_boxes": 1
+    },
+    {
+      "file": "3606630.jpg",
+      "correct": true,
+      "energy_in_box": 0.7607760986760094,
+      "chance": 0.47435897435897434,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_early-blight_03_zoom.jpg",
+      "correct": true,
+      "energy_in_box": 0.5384661976492952,
+      "chance": 0.36228477366255146,
+      "n_boxes": 3
+    },
+    {
+      "file": "earlyblight.jpg",
+      "correct": true,
+      "energy_in_box": 0.19440189060455104,
+      "chance": 0.5020734435532275,
+      "n_boxes": 1
+    },
+    {
+      "file": "droppedImage_3-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.3264114736989529,
+      "chance": 0.3079318936877076,
+      "n_boxes": 11
+    },
+    {
+      "file": "FS547-2-big.jpg",
+      "correct": false,
+      "energy_in_box": 0.8370908504076595,
+      "chance": 0.8781791281755197,
+      "n_boxes": 1
+    },
+    {
+      "file": "early_blight_tomato.jpg",
+      "correct": false,
+      "energy_in_box": 0.039280002828180054,
+      "chance": 0.10793266959561602,
+      "n_boxes": 8
+    },
+    {
+      "file": "Early+Blight+-+Tomatoes.jpg",
+      "correct": true,
+      "energy_in_box": 0.5738880276682619,
+      "chance": 0.7692015209125476,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato-Early-Blight-Leaves-Cornell-University.jpg",
+      "correct": false,
+      "energy_in_box": 0.5776937450996387,
+      "chance": 0.6420145833333334,
+      "n_boxes": 3
+    },
+    {
+      "file": "100_46341.jpg",
+      "correct": true,
+      "energy_in_box": 0.42545342667512037,
+      "chance": 0.2666255144032922,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato%20early%20blight%20target%20like%20leaf%20spot.jpg",
+      "correct": true,
+      "energy_in_box": 0.7264384932520905,
+      "chance": 0.7478502358885134,
+      "n_boxes": 1
+    },
+    {
+      "file": "confused-bacterial-canker-early-blight-zoom.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.4252324877646971,
+      "chance": 0.22529328716931663,
+      "n_boxes": 5
+    },
+    {
+      "file": "20020531-early%20blight%20%20starts%20on%20lower%20leaves.jpg",
+      "correct": true,
+      "energy_in_box": 0.33201975546351814,
+      "chance": 0.20012099680774378,
+      "n_boxes": 9
+    },
+    {
+      "file": "early-blight-in-tomatoes.jpg",
+      "correct": false,
+      "energy_in_box": 0.6793504540533547,
+      "chance": 0.7708759259259259,
+      "n_boxes": 1
+    },
+    {
+      "file": "b54d0e40027ff5e90e8ba7e1e9abf9bd--garden-guide-garden-ideas.jpg",
+      "correct": true,
+      "energy_in_box": 0.910148529367866,
+      "chance": 0.7935267857142857,
+      "n_boxes": 1
+    },
+    {
+      "file": "1058_0.jpeg?itok=OQkdtxgv.jpg",
+      "correct": false,
+      "energy_in_box": 0.9066801645187568,
+      "chance": 0.71035,
+      "n_boxes": 2
+    },
+    {
+      "file": "web1_copy_early-blight-6-_0.jpg",
+      "correct": true,
+      "energy_in_box": 0.5369535985251164,
+      "chance": 0.46625302663438256,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_early-blight_02_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.8084855215398603,
+      "chance": 0.7362683127572016,
+      "n_boxes": 4
+    },
+    {
+      "file": "ealryblight.jpg",
+      "correct": false,
+      "energy_in_box": 0.6749903287789318,
+      "chance": 0.50340625,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato-Early-Blight-Leaf-Examples-Cornell-University.jpg",
+      "correct": false,
+      "energy_in_box": 0.752526476984623,
+      "chance": 0.7618537037037038,
+      "n_boxes": 17
+    },
+    {
+      "file": "Tomato-diseases-prevention-treatment.-Early-blight..jpg",
+      "correct": true,
+      "energy_in_box": 0.07812539997604907,
+      "chance": 0.09907407407407408,
+      "n_boxes": 1
+    },
+    {
+      "file": "early_blight_spots_l.jpg",
+      "correct": false,
+      "energy_in_box": 0.8124829532898197,
+      "chance": 0.65835,
+      "n_boxes": 1
+    },
+    {
+      "file": "Original_e-blight.JPG.rend.hgtvcom.966.725.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.27293642723535044,
+      "chance": 0.5711529949311058,
+      "n_boxes": 1
+    },
+    {
+      "file": "Early_Blight_of_Tomato1687.jpg",
+      "correct": false,
+      "energy_in_box": 0.6180349961028607,
+      "chance": 0.6911041666666666,
+      "n_boxes": 1
+    },
+    {
+      "file": "Early-bligh_t.jpg",
+      "correct": true,
+      "energy_in_box": 0.2669464813866041,
+      "chance": 0.27495473251028807,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato-early-blight-1.jpg",
+      "correct": true,
+      "energy_in_box": 0.44740903696449374,
+      "chance": 0.4559746237362132,
+      "n_boxes": 1
+    },
+    {
+      "file": "Diseased-Tomato-Plant.jpg",
+      "correct": true,
+      "energy_in_box": 0.23528972638322765,
+      "chance": 0.2655709342560554,
+      "n_boxes": 4
+    },
+    {
+      "file": "eblight5.jpg",
+      "correct": false,
+      "energy_in_box": 0.2897586701364375,
+      "chance": 0.19504486709182234,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_D2b-Early-blight---RPitblado_zoom.jpg",
+      "correct": true,
+      "energy_in_box": 0.27319850081871544,
+      "chance": 0.2193167934377944,
+      "n_boxes": 5
+    },
+    {
+      "file": "5086-early.jpg",
+      "correct": true,
+      "energy_in_box": 0.6382235879573054,
+      "chance": 0.6370897009966777,
+      "n_boxes": 1
+    },
+    {
+      "file": "30053_original.jpg",
+      "correct": false,
+      "energy_in_box": 0.9759660936993326,
+      "chance": 0.9840718562874251,
+      "n_boxes": 1
+    },
+    {
+      "file": "EBTomato.jpg",
+      "correct": true,
+      "energy_in_box": 0.9076178289233264,
+      "chance": 0.9208888888888889,
+      "n_boxes": 1
+    },
+    {
+      "file": "dscn3168.jpg",
+      "correct": false,
+      "energy_in_box": 0.357152075271628,
+      "chance": 0.30750977207488694,
+      "n_boxes": 19
+    },
+    {
+      "file": "MPC105550.jpg.rendition.largest.ss.jpg",
+      "correct": true,
+      "energy_in_box": 0.15898610293778484,
+      "chance": 0.10186666666666666,
+      "n_boxes": 3
+    },
+    {
+      "file": "earlyblightresize.jpg",
+      "correct": false,
+      "energy_in_box": 0.5810064475369379,
+      "chance": 0.6088541666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "earlyblightpotato.jpg",
+      "correct": true,
+      "energy_in_box": 0.5817305534863183,
+      "chance": 0.5826605222734255,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomatoblight.jpg",
+      "correct": false,
+      "energy_in_box": 0.7296884698688418,
+      "chance": 0.7104,
+      "n_boxes": 1
+    },
+    {
+      "file": "8%20mistakes%204.jpg",
+      "correct": true,
+      "energy_in_box": 0.47682985524618193,
+      "chance": 0.4382882882882883,
+      "n_boxes": 3
+    },
+    {
+      "file": "p1020084s.jpg",
+      "correct": false,
+      "energy_in_box": 0.5878582788480955,
+      "chance": 0.4043729166666667,
+      "n_boxes": 6
+    },
+    {
+      "file": "12July_mwnews_3-C.jpg",
+      "correct": true,
+      "energy_in_box": 0.4410418072277034,
+      "chance": 0.4315898713158987,
+      "n_boxes": 4
+    },
+    {
+      "file": "ebleafb.jpg",
+      "correct": true,
+      "energy_in_box": 0.6427702133895434,
+      "chance": 0.6671083333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "earlyblighttomato.jpg",
+      "correct": true,
+      "energy_in_box": 0.8132239480599743,
+      "chance": 0.7188091220534847,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-blight-soil-treatment-early-tomato-blight-in-a-microcosm-lower-leaves-curl-up-and-die-bulls-eye-lesions-tomato-fungus-soil-treatment.jpg",
+      "correct": true,
+      "energy_in_box": 0.2169884655076806,
+      "chance": 0.21171380161539624,
+      "n_boxes": 2
+    },
+    {
+      "file": "8950022d45978228d5e44a35183efdb9--tomatoes-dyi.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.4380330346539998,
+      "n_boxes": 6
+    },
+    {
+      "file": "august-11-early-leaf-blight-single-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.9294326823634379,
+      "chance": 0.36081000184930107,
+      "n_boxes": 1
+    },
+    {
+      "file": "early%20blight%20%284%29.jpg?itok=gfK5C193.jpg",
+      "correct": false,
+      "energy_in_box": 0.9512535399753019,
+      "chance": 0.8605086365900615,
+      "n_boxes": 1
+    },
+    {
+      "file": "126689-004-D622CD2F.jpg",
+      "correct": false,
+      "energy_in_box": 0.9757490702540146,
+      "chance": 0.9613636363636363,
+      "n_boxes": 1
+    },
+    {
+      "file": "spotonleaf1.jpg",
+      "correct": false,
+      "energy_in_box": 0.20609635305228766,
+      "chance": 0.15866666666666668,
+      "n_boxes": 1
+    },
+    {
+      "file": "p1020083cs.jpg",
+      "correct": false,
+      "energy_in_box": 0.6434726157086903,
+      "chance": 0.5960971524288107,
+      "n_boxes": 2
+    },
+    {
+      "file": "late_blight_tomato_leaf_spore1x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.8259987531208633,
+      "chance": 0.7303172866520787,
+      "n_boxes": 3
+    },
+    {
+      "file": "636368370164094909-late-blight-15-.jpg",
+      "correct": false,
+      "energy_in_box": 0.44606524098537886,
+      "chance": 0.3852766346593507,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_5808.jpg",
+      "correct": false,
+      "energy_in_box": 0.5955470912721401,
+      "chance": 0.43512133333333336,
+      "n_boxes": 1
+    },
+    {
+      "file": "image.jpg",
+      "correct": false,
+      "energy_in_box": 0.8663762189230825,
+      "chance": 0.7094044148271553,
+      "n_boxes": 2
+    },
+    {
+      "file": "LateBlt09_06.jpg",
+      "correct": false,
+      "energy_in_box": 0.171967761636198,
+      "chance": 0.3105223880597015,
+      "n_boxes": 1
+    },
+    {
+      "file": "18c.jpg",
+      "correct": true,
+      "energy_in_box": 0.8280729090887617,
+      "chance": 0.7945882352941176,
+      "n_boxes": 1
+    },
+    {
+      "file": "dsc_8148cs.jpg",
+      "correct": true,
+      "energy_in_box": 0.9876324542689423,
+      "chance": 0.9087653486107035,
+      "n_boxes": 1
+    },
+    {
+      "file": "70.jpg",
+      "correct": false,
+      "energy_in_box": 0.7431808855848784,
+      "chance": 0.5049568607930978,
+      "n_boxes": 1
+    },
+    {
+      "file": "late-blight-TomC2-10.jpg",
+      "correct": false,
+      "energy_in_box": 0.459846540153295,
+      "chance": 0.3054045893719807,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_5813.jpg",
+      "correct": false,
+      "energy_in_box": 0.3701724132622091,
+      "chance": 0.43494166666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "20150619d.jpg",
+      "correct": false,
+      "energy_in_box": 0.6486709900864589,
+      "chance": 0.5794333333333334,
+      "n_boxes": 2
+    },
+    {
+      "file": "Late-Blight-A.jpg",
+      "correct": false,
+      "energy_in_box": 0.4134379875142306,
+      "chance": 0.39982665051364635,
+      "n_boxes": 2
+    },
+    {
+      "file": "lb_leaf_lesions3x1200.jpg",
+      "correct": true,
+      "energy_in_box": 0.7456240497915693,
+      "chance": 0.7352712962962963,
+      "n_boxes": 1
+    },
+    {
+      "file": "lb2.jpg",
+      "correct": false,
+      "energy_in_box": 0.7692788418066495,
+      "chance": 0.6537237205000743,
+      "n_boxes": 3
+    },
+    {
+      "file": "gardening-moisture-lateblight-tomato-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.9297064405368818,
+      "chance": 0.7828567560510971,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_D33a-Late-blight-015-OMAFHRT_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.4639946709868958,
+      "chance": 0.39016697966849023,
+      "n_boxes": 1
+    },
+    {
+      "file": "Late-blight-on-a-tomato-leaf.jpg",
+      "correct": true,
+      "energy_in_box": 0.9554459944912947,
+      "chance": 0.9304180418041804,
+      "n_boxes": 1
+    },
+    {
+      "file": "late-blight-fungicides.jpg",
+      "correct": false,
+      "energy_in_box": 0.6843057084447237,
+      "chance": 0.6172768518518519,
+      "n_boxes": 2
+    },
+    {
+      "file": "IMG_4182.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3478500102317546,
+      "chance": 0.31882603963216144,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato-late-blight-conn-2015-137c.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.901585116350217,
+      "n_boxes": 1
+    },
+    {
+      "file": "dsc_4624s.jpg",
+      "correct": false,
+      "energy_in_box": 0.2191689499470932,
+      "chance": 0.2843807906063293,
+      "n_boxes": 1
+    },
+    {
+      "file": "lateblightTom_lesion.jpg",
+      "correct": true,
+      "energy_in_box": 0.37965769782516534,
+      "chance": 0.19220377604166666,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato.early.blightH.jpg",
+      "correct": false,
+      "energy_in_box": 0.39861621920397394,
+      "chance": 0.5277142903455878,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_late-blight_05_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.5493005971949556,
+      "chance": 0.5019435185185185,
+      "n_boxes": 3
+    },
+    {
+      "file": "LBleaf2INIA_0.jpg",
+      "correct": false,
+      "energy_in_box": 0.6600263142513981,
+      "chance": 0.5437094370524088,
+      "n_boxes": 1
+    },
+    {
+      "file": "TomatoLateBlightTop.jpg",
+      "correct": true,
+      "energy_in_box": 0.84962507764548,
+      "chance": 0.6901497388503541,
+      "n_boxes": 1
+    },
+    {
+      "file": "118A_Tom_Late.jpg",
+      "correct": false,
+      "energy_in_box": 0.34742686062050737,
+      "chance": 0.3247407407407407,
+      "n_boxes": 1
+    },
+    {
+      "file": "lateblight2.jpg",
+      "correct": false,
+      "energy_in_box": 0.3357768119360402,
+      "chance": 0.6290625,
+      "n_boxes": 1
+    },
+    {
+      "file": "lb_leaf_lesions4x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.3877774804751684,
+      "chance": 0.42219375,
+      "n_boxes": 1
+    },
+    {
+      "file": "lateblightTom_lesion3.jpg",
+      "correct": false,
+      "energy_in_box": 0.7795198598066946,
+      "chance": 0.6310068766276041,
+      "n_boxes": 2
+    },
+    {
+      "file": "5816170621_e1cce08736_z.jpg",
+      "correct": false,
+      "energy_in_box": 0.31074037907298596,
+      "chance": 0.6263246487119438,
+      "n_boxes": 2
+    },
+    {
+      "file": "Fig.%2014_opta.jpg",
+      "correct": true,
+      "energy_in_box": 0.9505111865429908,
+      "chance": 0.6485457144185182,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_late-blight_04_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.730903275803304,
+      "chance": 0.6136674897119342,
+      "n_boxes": 9
+    },
+    {
+      "file": "2017-08-27%2B-%2BLate%2BBlight%2Bon%2BGypsy%2B1.jpg",
+      "correct": false,
+      "energy_in_box": 0.3316457937721149,
+      "chance": 0.2925,
+      "n_boxes": 1
+    },
+    {
+      "file": "924977LateBlightLeaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.8427800221576447,
+      "chance": 0.6600708333333334,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_1526.jpg",
+      "correct": false,
+      "energy_in_box": 0.539006971155786,
+      "chance": 0.4181194332308087,
+      "n_boxes": 1
+    },
+    {
+      "file": "TomatoBlight.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.7937158309667438,
+      "chance": 0.7005969785575049,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_tomato_transplant2x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.617468546728693,
+      "chance": 0.5628776819287769,
+      "n_boxes": 1
+    },
+    {
+      "file": "Pest2369.jpg",
+      "correct": false,
+      "energy_in_box": 0.8541623250304411,
+      "chance": 0.6641555555555556,
+      "n_boxes": 1
+    },
+    {
+      "file": "F%294.jpg",
+      "correct": false,
+      "energy_in_box": 0.597338330286531,
+      "chance": 0.5037306201550388,
+      "n_boxes": 1
+    },
+    {
+      "file": "late-blight-tom-leaf.jpg",
+      "correct": true,
+      "energy_in_box": 0.00022340226950022982,
+      "chance": 0.3632862484005118,
+      "n_boxes": 3
+    },
+    {
+      "file": "IMG_2254.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.9005733731813175,
+      "chance": 0.8316863870665417,
+      "n_boxes": 2
+    },
+    {
+      "file": "late-blight-tomato-leaf.jpg",
+      "correct": true,
+      "energy_in_box": 0.8859875020985849,
+      "chance": 0.8044351604278075,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_late-blight_01_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.7498323681023815,
+      "chance": 0.7446488294314382,
+      "n_boxes": 6
+    },
+    {
+      "file": "late_blight_tomato_leaf_sporex1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9918615235888304,
+      "chance": 0.9795481481481482,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_tomato_unusual-symptomsx1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.7998535734577846,
+      "chance": 0.7610629629629629,
+      "n_boxes": 6
+    },
+    {
+      "file": "late_blight_2013_longisland2x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9640620184013361,
+      "chance": 0.9481585585585586,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_tomato_leaf_.jpg",
+      "correct": false,
+      "energy_in_box": 0.5723566017386197,
+      "chance": 0.4529444444444444,
+      "n_boxes": 7
+    },
+    {
+      "file": "late_blight1.jpg",
+      "correct": true,
+      "energy_in_box": 0.9049345782071019,
+      "chance": 0.8217960426179605,
+      "n_boxes": 1
+    },
+    {
+      "file": "600.jpg",
+      "correct": true,
+      "energy_in_box": 0.5843851232478652,
+      "chance": 0.48058531746031746,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_tomato_leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.9552783800222329,
+      "chance": 0.9247228915662651,
+      "n_boxes": 1
+    },
+    {
+      "file": "symptoms_of_late_blight_0.jpg",
+      "correct": false,
+      "energy_in_box": 0.19805470712564194,
+      "chance": 0.16438818374302244,
+      "n_boxes": 2
+    },
+    {
+      "file": "TOMATO%20LATE%20BLIGHT%20ON%20LEAF.jpg",
+      "correct": false,
+      "energy_in_box": 0.5268951804937023,
+      "chance": 0.6005334518781952,
+      "n_boxes": 1
+    },
+    {
+      "file": "p1020076cs.jpg",
+      "correct": false,
+      "energy_in_box": 0.8759290729450793,
+      "chance": 0.834283909290169,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-late-blight-foliar-lesions_Scot-Nelson_CC-BY-SA-2.0.jpg",
+      "correct": false,
+      "energy_in_box": 0.36223007153722,
+      "chance": 0.365689055636896,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_drought_leaves1x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.6285620164356162,
+      "chance": 0.698362037037037,
+      "n_boxes": 12
+    },
+    {
+      "file": "stock-photo-tomato-plants-infected-by-the-late-blight-plant-pathogen-phytophthora-infestans-macro-539209615.jpg",
+      "correct": false,
+      "energy_in_box": 0.2930268827487968,
+      "chance": 0.3290416666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "a7710b5901ba1f8e9759ef7576cd9f09.jpg",
+      "correct": false,
+      "energy_in_box": 0.17406936214554658,
+      "chance": 0.11904092628245593,
+      "n_boxes": 1
+    },
+    {
+      "file": "Late-blight-tomato-leaf-VikramBisht-MBag.jpg",
+      "correct": false,
+      "energy_in_box": 0.7536419862786506,
+      "chance": 0.6524,
+      "n_boxes": 2
+    },
+    {
+      "file": "lb_leaf_lesions2x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9168884876113107,
+      "chance": 0.8222630208333334,
+      "n_boxes": 1
+    },
+    {
+      "file": "Late_blight_on_tomato_leaf_%287871756748%29.jpg",
+      "correct": true,
+      "energy_in_box": 0.9197358442163285,
+      "chance": 0.8934459812774207,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato-Late-BlightBM.jpg",
+      "correct": false,
+      "energy_in_box": 0.632548456583287,
+      "chance": 0.8151132530120482,
+      "n_boxes": 1
+    },
+    {
+      "file": "FS547-6-big.jpg",
+      "correct": true,
+      "energy_in_box": 0.9522437800249781,
+      "chance": 0.9294003868471954,
+      "n_boxes": 1
+    },
+    {
+      "file": "LateBlt_FromRusinek.jpg",
+      "correct": false,
+      "energy_in_box": 0.5875963510424049,
+      "chance": 0.4392272519433013,
+      "n_boxes": 3
+    },
+    {
+      "file": "photo-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.34432149239846216,
+      "chance": 0.40961964925130206,
+      "n_boxes": 4
+    },
+    {
+      "file": "late_blight_drought_leavescuux1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.7395303455658564,
+      "chance": 0.6222218514728636,
+      "n_boxes": 2
+    },
+    {
+      "file": "late_blight_tomato_leaf5x12001.jpg",
+      "correct": false,
+      "energy_in_box": 0.9514424304850504,
+      "chance": 0.909421875,
+      "n_boxes": 1
+    },
+    {
+      "file": "dsc_8140cs.jpg",
+      "correct": false,
+      "energy_in_box": 0.3810859467856714,
+      "chance": 0.2508421005215267,
+      "n_boxes": 2
+    },
+    {
+      "file": "Tomato_Blight_Leaves.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3642788556224807,
+      "chance": 0.2942911458333333,
+      "n_boxes": 5
+    },
+    {
+      "file": "LateBlightLeaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.41016452844869766,
+      "chance": 0.700875,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_5360.jpg",
+      "correct": false,
+      "energy_in_box": 0.6287407116339611,
+      "chance": 0.5714047619047619,
+      "n_boxes": 2
+    },
+    {
+      "file": "Tomato%20late%20blight%20lesion%20closeup%2013F.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.8221094983975622,
+      "chance": 0.6186209583171016,
+      "n_boxes": 1
+    },
+    {
+      "file": "dsc_4621c.jpg",
+      "correct": false,
+      "energy_in_box": 0.5308839439477727,
+      "chance": 0.39006942983378917,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-late-blight-leaf-61-3x32.jpg",
+      "correct": false,
+      "energy_in_box": 0.8930010126018556,
+      "chance": 0.7647619047619048,
+      "n_boxes": 1
+    },
+    {
+      "file": "lbleaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.3410975047528654,
+      "chance": 0.331264,
+      "n_boxes": 3
+    },
+    {
+      "file": "Late_Blight_2.jpg",
+      "correct": false,
+      "energy_in_box": 0.43590074577653254,
+      "chance": 0.27147798448163035,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_tomato_leaf1x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9066909659632097,
+      "chance": 0.9304194444444445,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_5368.jpg",
+      "correct": false,
+      "energy_in_box": 0.7085520239416176,
+      "chance": 0.557010183299389,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_late-blight_03_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.5820444061315788,
+      "chance": 0.4610222222222222,
+      "n_boxes": 1
+    },
+    {
+      "file": "Late%20blight%20tomato1.jpg",
+      "correct": false,
+      "energy_in_box": 0.1718966460810266,
+      "chance": 0.18624216678717764,
+      "n_boxes": 1
+    },
+    {
+      "file": "LateBlt09_05.jpg",
+      "correct": false,
+      "energy_in_box": 0.4725786004409018,
+      "chance": 0.3613533834586466,
+      "n_boxes": 3
+    },
+    {
+      "file": "August-17-2012-Supplemental-6.jpg",
+      "correct": false,
+      "energy_in_box": 0.38122968769831056,
+      "chance": 0.41352654633799185,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato+blight.jpg",
+      "correct": false,
+      "energy_in_box": 0.4114076894606794,
+      "chance": 0.403840063341251,
+      "n_boxes": 2
+    },
+    {
+      "file": "symptoms_of_late_blight.jpg2__0.jpg",
+      "correct": false,
+      "energy_in_box": 0.979673432597241,
+      "chance": 0.9798321418360455,
+      "n_boxes": 1
+    },
+    {
+      "file": "late_blight_2013_longisland1x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.8232794776743801,
+      "chance": 0.7761039886039887,
+      "n_boxes": 5
+    },
+    {
+      "file": "late_blight_tomato_leavesx500.jpg",
+      "correct": false,
+      "energy_in_box": 0.5254884738938754,
+      "chance": 0.35728533333333334,
+      "n_boxes": 11
+    },
+    {
+      "file": "photo-9.jpg",
+      "correct": false,
+      "energy_in_box": 0.32885094323084046,
+      "chance": 0.5774529774983724,
+      "n_boxes": 1
+    },
+    {
+      "file": "RARZ4.jpg",
+      "correct": false,
+      "energy_in_box": 0.23776224497865275,
+      "chance": 0.2641352083333333,
+      "n_boxes": 3
+    },
+    {
+      "file": "0.jpg",
+      "correct": false,
+      "energy_in_box": 0.41170898928468386,
+      "chance": 0.34336805555555555,
+      "n_boxes": 8
+    },
+    {
+      "file": "6447731_orig.jpg",
+      "correct": false,
+      "energy_in_box": 0.8050805666044192,
+      "chance": 0.8129277108433735,
+      "n_boxes": 1
+    },
+    {
+      "file": "early-blight-septoria-ls-fig-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.5240023318294607,
+      "chance": 0.5732811851851852,
+      "n_boxes": 4
+    },
+    {
+      "file": "6134794031202304.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.4190065776237874,
+      "chance": 0.29934375,
+      "n_boxes": 1
+    },
+    {
+      "file": "636227737977191231-septoria-leaf-spot-VT.jpg",
+      "correct": false,
+      "energy_in_box": 0.3850006802325161,
+      "chance": 0.4740069302399432,
+      "n_boxes": 4
+    },
+    {
+      "file": "sept4disease-019.jpg",
+      "correct": false,
+      "energy_in_box": 0.7991347897961504,
+      "chance": 0.7828461548539046,
+      "n_boxes": 1
+    },
+    {
+      "file": "2STEM.jpg",
+      "correct": false,
+      "energy_in_box": 0.8903777983255488,
+      "chance": 0.7631811989100817,
+      "n_boxes": 1
+    },
+    {
+      "file": "7-17-Photo3_Septoria-MARY.jpg",
+      "correct": false,
+      "energy_in_box": 0.44177851328738277,
+      "chance": 0.6437387805632931,
+      "n_boxes": 4
+    },
+    {
+      "file": "55830b60a7cf2.image.jpg",
+      "correct": false,
+      "energy_in_box": 0.4676756464169498,
+      "chance": 0.3862833921790687,
+      "n_boxes": 3
+    },
+    {
+      "file": "5775225744523264-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.4782239686802314,
+      "chance": 0.47887867647058824,
+      "n_boxes": 2
+    },
+    {
+      "file": "5516100468998144-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.4070262385263669,
+      "chance": 0.4677205882352941,
+      "n_boxes": 2
+    },
+    {
+      "file": "eb56b488e349c2de423ab6afbcc4bd5b.jpg",
+      "correct": false,
+      "energy_in_box": 0.47930836975010505,
+      "chance": 0.4128724409448819,
+      "n_boxes": 3
+    },
+    {
+      "file": "septorialeafspot.jpg",
+      "correct": false,
+      "energy_in_box": 0.4079203221906852,
+      "chance": 0.467551912568306,
+      "n_boxes": 5
+    },
+    {
+      "file": "20100824septoria.jpg",
+      "correct": false,
+      "energy_in_box": 0.7882722630235522,
+      "chance": 0.7995077932731748,
+      "n_boxes": 2
+    },
+    {
+      "file": "4853086777_bc41d29801.jpg",
+      "correct": false,
+      "energy_in_box": 0.316661320451904,
+      "chance": 0.36814414414414415,
+      "n_boxes": 9
+    },
+    {
+      "file": "tomato%2Bseptoria%2Bleaf%2Bspot2.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.865842846723012,
+      "chance": 0.6251666666666666,
+      "n_boxes": 2
+    },
+    {
+      "file": "32-Septoria-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.9355640680632552,
+      "chance": 0.9522921522921522,
+      "n_boxes": 1
+    },
+    {
+      "file": "5775225744523264.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.22073070557761215,
+      "chance": 0.2169875,
+      "n_boxes": 4
+    },
+    {
+      "file": "septoria-leaf-spot-treatment-leaf-spot-septoria-leaf-spot-soil-treatment-septoria-leaf-spot-tomato-organic-treatment.jpg",
+      "correct": false,
+      "energy_in_box": 0.6399817151721056,
+      "chance": 0.5253242320819113,
+      "n_boxes": 1
+    },
+    {
+      "file": "Septoria_Leaf_Spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.7222519157432872,
+      "chance": 0.5461158906882592,
+      "n_boxes": 3
+    },
+    {
+      "file": "septoria_leaf_spot_of_tomato-1500x750.jpg",
+      "correct": false,
+      "energy_in_box": 0.4138292193677047,
+      "chance": 0.3702933333333333,
+      "n_boxes": 2
+    },
+    {
+      "file": "septorialycopersici_small.jpg",
+      "correct": true,
+      "energy_in_box": 0.6776830193667754,
+      "chance": 0.872085798816568,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-septoria-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.19043925784823756,
+      "chance": 0.12859689285979367,
+      "n_boxes": 3
+    },
+    {
+      "file": "bd0b83af4c5e4b739ccc6c36fa66f141.jpg",
+      "correct": true,
+      "energy_in_box": 0.7644456665720463,
+      "chance": 0.7148871855770269,
+      "n_boxes": 1
+    },
+    {
+      "file": "5c77186a4ea326e5495c9d03cd89ce16.jpg",
+      "correct": false,
+      "energy_in_box": 0.4213588728941558,
+      "chance": 0.44731348611408583,
+      "n_boxes": 3
+    },
+    {
+      "file": "6336392950972416.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.32533601734092893,
+      "chance": 0.38288958333333334,
+      "n_boxes": 7
+    },
+    {
+      "file": "Tomato+Problems+Septoria+Leaf+Spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.09742402889000426,
+      "chance": 0.12483217592592592,
+      "n_boxes": 3
+    },
+    {
+      "file": "Septoria-leaf-spot-hc.jpg",
+      "correct": false,
+      "energy_in_box": 0.3148699599559952,
+      "chance": 0.256929023768402,
+      "n_boxes": 6
+    },
+    {
+      "file": "6+1+09+019.jpg",
+      "correct": false,
+      "energy_in_box": 0.40325419045330174,
+      "chance": 0.29685430463576157,
+      "n_boxes": 5
+    },
+    {
+      "file": "TomatoDisease_IMG_2744_2016Jul01_original.JPG?1472858324.jpg",
+      "correct": false,
+      "energy_in_box": 0.14229436026754474,
+      "chance": 0.3558717400358836,
+      "n_boxes": 9
+    },
+    {
+      "file": "5008922249_880e15c21f.jpg",
+      "correct": false,
+      "energy_in_box": 0.9635728055325427,
+      "chance": 0.9560798813477889,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria-leaf-spot-2.jpg",
+      "correct": true,
+      "energy_in_box": 0.5089583834248957,
+      "chance": 0.463424,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_leaves_300x300%2523.jpg",
+      "correct": false,
+      "energy_in_box": 0.14327464048105779,
+      "chance": 0.3569222222222222,
+      "n_boxes": 4
+    },
+    {
+      "file": "septoria_tomato.jpg",
+      "correct": false,
+      "energy_in_box": 0.9729045556618343,
+      "chance": 0.9693473325766174,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria3.jpg",
+      "correct": false,
+      "energy_in_box": 0.6624963075894044,
+      "chance": 0.5791006146878033,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_V8.jpg",
+      "correct": false,
+      "energy_in_box": 0.8343648639175951,
+      "chance": 0.7735934065934066,
+      "n_boxes": 4
+    },
+    {
+      "file": "bigseptoria01.jpg",
+      "correct": false,
+      "energy_in_box": 0.5562554166451009,
+      "chance": 0.5278326095538887,
+      "n_boxes": 1
+    },
+    {
+      "file": "sls1.jpg",
+      "correct": false,
+      "energy_in_box": 0.7800890806643402,
+      "chance": 0.8063125,
+      "n_boxes": 1
+    },
+    {
+      "file": "5315825271570432.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.5274942250583814,
+      "chance": 0.4717708333333333,
+      "n_boxes": 6
+    },
+    {
+      "file": "early-blight-septoria-ls-fig-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.5240023318294607,
+      "chance": 0.5732811851851852,
+      "n_boxes": 4
+    },
+    {
+      "file": "6242739939180544.jpeg.jpg",
+      "correct": true,
+      "energy_in_box": 0.4153719639381737,
+      "chance": 0.355725,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato_Septoria_Leaf_Spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.6465525848220419,
+      "chance": 0.5885167464114832,
+      "n_boxes": 2
+    },
+    {
+      "file": "SeptoriaTomato-B.jpg",
+      "correct": false,
+      "energy_in_box": 0.5469375060017915,
+      "chance": 0.5597402024815006,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomatoseptorialeafspotjpg-788d20798a3c74e7.jpg",
+      "correct": false,
+      "energy_in_box": 0.6419194533456641,
+      "chance": 0.7274418229907539,
+      "n_boxes": 1
+    },
+    {
+      "file": "20809116-standard.jpg",
+      "correct": false,
+      "energy_in_box": 0.5656524761755749,
+      "chance": 0.5147354419154596,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomatofactsheet.png.png",
+      "correct": false,
+      "energy_in_box": 0.6411388050233338,
+      "chance": 0.6837676056338028,
+      "n_boxes": 3
+    },
+    {
+      "file": "img_6564.jpg",
+      "correct": false,
+      "energy_in_box": 0.36821754384986793,
+      "chance": 0.2756657980562794,
+      "n_boxes": 4
+    },
+    {
+      "file": "septoria-leaf-spot-in-tomatoes.jpg",
+      "correct": false,
+      "energy_in_box": 0.6389174873655867,
+      "chance": 0.359462962962963,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato%20bacterial%20spot%20closeup-050S.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.8152625687480887,
+      "chance": 0.769462890625,
+      "n_boxes": 1
+    },
+    {
+      "file": "28018723549_3a16c1467b_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.38048689178110906,
+      "chance": 0.3163808186848958,
+      "n_boxes": 2
+    },
+    {
+      "file": "3893.jpg",
+      "correct": false,
+      "energy_in_box": 0.8865901642470035,
+      "chance": 0.7737154851530955,
+      "n_boxes": 1
+    },
+    {
+      "file": "1b.jpg",
+      "correct": false,
+      "energy_in_box": 0.5121597513999453,
+      "chance": 0.5447048611111112,
+      "n_boxes": 2
+    },
+    {
+      "file": "5315825271570432-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.8590099656703313,
+      "chance": 0.8024632352941177,
+      "n_boxes": 3
+    },
+    {
+      "file": "Septoria-leaf-spot-on-tomato-FOR-WEB.jpg",
+      "correct": false,
+      "energy_in_box": 0.5993464023453584,
+      "chance": 0.4768225444149479,
+      "n_boxes": 3
+    },
+    {
+      "file": "septoria+leaf+spota.jpg",
+      "correct": false,
+      "energy_in_box": 0.4008026982180939,
+      "chance": 0.31664285714285717,
+      "n_boxes": 1
+    },
+    {
+      "file": "Septoria_Leaf_Spot_of_Tomato187.jpg",
+      "correct": false,
+      "energy_in_box": 0.9335238043669832,
+      "chance": 0.91959375,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato-septoria-leaf-spot-.jpg",
+      "correct": false,
+      "energy_in_box": 0.464554937717873,
+      "chance": 0.3801438235351127,
+      "n_boxes": 8
+    },
+    {
+      "file": "tomato-septoria-leaf-spot--.jpg",
+      "correct": false,
+      "energy_in_box": 0.21286116768022534,
+      "chance": 0.28931574074074073,
+      "n_boxes": 7
+    },
+    {
+      "file": "septoria2_600px.jpg",
+      "correct": false,
+      "energy_in_box": 0.5848513416666693,
+      "chance": 0.6004555555555555,
+      "n_boxes": 6
+    },
+    {
+      "file": "tomato-septoria-5.jpg",
+      "correct": false,
+      "energy_in_box": 0.21573222739467895,
+      "chance": 0.13071230502599654,
+      "n_boxes": 1
+    },
+    {
+      "file": "5516100468998144.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.15163087051166713,
+      "chance": 0.2889,
+      "n_boxes": 6
+    },
+    {
+      "file": "bnX8Q.jpg",
+      "correct": false,
+      "energy_in_box": 0.2951952963894548,
+      "chance": 0.19859375,
+      "n_boxes": 2
+    },
+    {
+      "file": "closeup-of-tomato-leaf-y4af51-1024x768.jpg",
+      "correct": false,
+      "energy_in_box": 0.8544088470585427,
+      "chance": 0.8518778483072916,
+      "n_boxes": 1
+    },
+    {
+      "file": "Septoria%2Bleaf%2Bspot.tomato.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.5395166666666666,
+      "n_boxes": 3
+    },
+    {
+      "file": "IMG_0312_original.jpg",
+      "correct": false,
+      "energy_in_box": 0.7159799339038677,
+      "chance": 0.6073713541666667,
+      "n_boxes": 5
+    },
+    {
+      "file": "MPC105550.jpg.rendition.largest.550.jpg",
+      "correct": false,
+      "energy_in_box": 0.12360486760329792,
+      "chance": 0.08690578512396695,
+      "n_boxes": 3
+    },
+    {
+      "file": "x3-most-common-types-tomato-blight.jpg.pagespeed.ic.5cLJi6TXEi.jpg",
+      "correct": false,
+      "energy_in_box": 0.8915039812303552,
+      "chance": 0.9001536098310292,
+      "n_boxes": 1
+    },
+    {
+      "file": "gray-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.6237665333321551,
+      "chance": 0.711089430894309,
+      "n_boxes": 6
+    },
+    {
+      "file": "web1_copy_tomato-septoria-leaf-spot4.jpg",
+      "correct": false,
+      "energy_in_box": 0.842164234859745,
+      "chance": 0.74072265625,
+      "n_boxes": 1
+    },
+    {
+      "file": "slide21-n.jpg",
+      "correct": false,
+      "energy_in_box": 0.7717230586954129,
+      "chance": 0.44203703703703706,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria-leaf-spot-tomato-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.7184990452014122,
+      "chance": 0.6729333333333334,
+      "n_boxes": 1
+    },
+    {
+      "file": "5336411888680960-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.9999999999998507,
+      "chance": 0.8424264705882353,
+      "n_boxes": 1
+    },
+    {
+      "file": "2014-08-27%2B-%2BCloser%2BView%2Bof%2BSeptoria%2BLeaf%2BSpot.jpg",
+      "correct": false,
+      "energy_in_box": 0.23218199689834837,
+      "chance": 0.2127649456521739,
+      "n_boxes": 6
+    },
+    {
+      "file": "xgray-leaf-spot.jpg.pagespeed.ic.ltF8KfKtQ1.jpg",
+      "correct": false,
+      "energy_in_box": 0.6807048357579887,
+      "chance": 0.7268617886178862,
+      "n_boxes": 8
+    },
+    {
+      "file": "128110613-56a6d3633df78cf7729070ad.jpg",
+      "correct": false,
+      "energy_in_box": 0.1361623742469045,
+      "chance": 0.3146319336443753,
+      "n_boxes": 2
+    },
+    {
+      "file": "IMG_4452_1500x1500%253E.JPG?1407883119.jpg",
+      "correct": false,
+      "energy_in_box": 0.1736099382016025,
+      "chance": 0.16871585185185184,
+      "n_boxes": 6
+    },
+    {
+      "file": "IMG_3175.jpg",
+      "correct": false,
+      "energy_in_box": 0.6633289963965631,
+      "chance": 0.5786341829085457,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato-plant-is-infected-with-septoria-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.32695542599465266,
+      "chance": 0.2788420095131124,
+      "n_boxes": 2
+    },
+    {
+      "file": "5454635393351680.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.04039006510690041,
+      "chance": 0.26484166666666664,
+      "n_boxes": 3
+    },
+    {
+      "file": "Septoria+Leaf+Spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.25061609526864853,
+      "chance": 0.2770820180976431,
+      "n_boxes": 3
+    },
+    {
+      "file": "septoria_tom_seedlings5x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9667154897386514,
+      "chance": 0.9502523762700754,
+      "n_boxes": 3
+    },
+    {
+      "file": "leafspot-5aba8283642dca003687f6fa.jpg",
+      "correct": false,
+      "energy_in_box": 0.5475823654022228,
+      "chance": 0.5284461709211987,
+      "n_boxes": 3
+    },
+    {
+      "file": "49-Septoria-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.7611506593286327,
+      "chance": 0.7273539760731879,
+      "n_boxes": 3
+    },
+    {
+      "file": "septoria-leafspot-on-tomato-leaf-rp-c.jpg",
+      "correct": false,
+      "energy_in_box": 0.9425152356449378,
+      "chance": 0.8836703202049532,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria_tom_leaves1x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.46077688622296165,
+      "chance": 0.34214985994397756,
+      "n_boxes": 3
+    },
+    {
+      "file": "b54d0e40027ff5e90e8ba7e1e9abf9bd.jpg",
+      "correct": false,
+      "energy_in_box": 0.7069851740360508,
+      "chance": 0.6346666666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_septoria_05_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.2705535005854654,
+      "chance": 0.3112950575994054,
+      "n_boxes": 6
+    },
+    {
+      "file": "Septoria_tomato_Margaret%20B_p8170755_0002_25004.jpg",
+      "correct": false,
+      "energy_in_box": 0.1662437362079936,
+      "chance": 0.26158333333333333,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato-septoria-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.93295283339441,
+      "chance": 0.9734666666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-diseases-1-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.33216188721970924,
+      "chance": 0.27708261071589846,
+      "n_boxes": 5
+    },
+    {
+      "file": "Tom_Sept1.jpg",
+      "correct": false,
+      "energy_in_box": 0.2154727144938488,
+      "chance": 0.12846441947565543,
+      "n_boxes": 6
+    },
+    {
+      "file": "46-Septoria-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.587217847207802,
+      "chance": 0.5024160079051383,
+      "n_boxes": 5
+    },
+    {
+      "file": "140714+%2811%29.JPG.jpg",
+      "correct": true,
+      "energy_in_box": 0.4648911325773495,
+      "chance": 0.3394817708333333,
+      "n_boxes": 9
+    },
+    {
+      "file": "Leaf%20spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.7318830320747461,
+      "chance": 0.8116516516516517,
+      "n_boxes": 1
+    },
+    {
+      "file": "confused-early-blight-septoria-zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.9888790061240136,
+      "chance": 0.9258024044340687,
+      "n_boxes": 1
+    },
+    {
+      "file": "1c421500ddd390c90596ad2cf12d5429.jpg",
+      "correct": false,
+      "energy_in_box": 0.00868770361529891,
+      "chance": 0.056971153846153845,
+      "n_boxes": 2
+    },
+    {
+      "file": "classic-septoria.jpg",
+      "correct": false,
+      "energy_in_box": 0.5431101483459632,
+      "chance": 0.3648832815664786,
+      "n_boxes": 4
+    },
+    {
+      "file": "PHOTO_1333642740144.jpg",
+      "correct": false,
+      "energy_in_box": 0.24537352456535563,
+      "chance": 0.2638580931263858,
+      "n_boxes": 5
+    },
+    {
+      "file": "5866245865865216.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.13535184425207955,
+      "chance": 0.33281875,
+      "n_boxes": 2
+    },
+    {
+      "file": "early+blight+on+leaf+yel+halo+IMG_2313.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.89071039763514,
+      "chance": 0.876959214922049,
+      "n_boxes": 1
+    },
+    {
+      "file": "PHOTO_1333642732277.jpg",
+      "correct": false,
+      "energy_in_box": 0.3947995270592889,
+      "chance": 0.3043701496674058,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomato-badleaves.jpg",
+      "correct": false,
+      "energy_in_box": 0.4616716116510406,
+      "chance": 0.34897216796875,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomato_septoria_alternaria_1.jpg",
+      "correct": false,
+      "energy_in_box": 0.6217498469641951,
+      "chance": 0.5726307751050019,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato-septoria-leaf-spot-600.jpg",
+      "correct": false,
+      "energy_in_box": 0.6573654154219454,
+      "chance": 0.5036631944444444,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria_tom_seedlings2x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.8151358141965163,
+      "chance": 0.809312962962963,
+      "n_boxes": 4
+    },
+    {
+      "file": "Tomato+leaf+spot2.jpg",
+      "correct": false,
+      "energy_in_box": 0.772874152714845,
+      "chance": 0.7940634068288449,
+      "n_boxes": 2
+    },
+    {
+      "file": "2010-jul-5-jul-9-03.jpg",
+      "correct": false,
+      "energy_in_box": 0.3164930231319546,
+      "chance": 0.39673180592991913,
+      "n_boxes": 3
+    },
+    {
+      "file": "caf212ccf4696675469a0beaa9e57213.jpg",
+      "correct": false,
+      "energy_in_box": 0.3056770490171374,
+      "chance": 0.41838216145833335,
+      "n_boxes": 1
+    },
+    {
+      "file": "Septoria_Leaf_Spot_of_Tomato186.jpg",
+      "correct": false,
+      "energy_in_box": 0.5661063459039765,
+      "chance": 0.48377110694183867,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria+on+rudbeckia.jpg",
+      "correct": false,
+      "energy_in_box": 0.9440004005921202,
+      "chance": 0.9475634920634921,
+      "n_boxes": 2
+    },
+    {
+      "file": "Septoria_leaf_spot_tomato.jpg",
+      "correct": true,
+      "energy_in_box": 0.723603925446343,
+      "chance": 0.6323779193205945,
+      "n_boxes": 1
+    },
+    {
+      "file": "6078710516023296.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.6412027754620531,
+      "chance": 0.6114458333333334,
+      "n_boxes": 1
+    },
+    {
+      "file": "b6ca3f80-cc10-4d4f-be0d-771deb9a4969.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.7520056066300075,
+      "chance": 0.7645687645687645,
+      "n_boxes": 1
+    },
+    {
+      "file": "6134794031202304-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.8032267625080012,
+      "chance": 0.7372855392156863,
+      "n_boxes": 2
+    },
+    {
+      "file": "septoria+tomato.jpg",
+      "correct": false,
+      "energy_in_box": 0.6877199364758811,
+      "chance": 0.7298864668483197,
+      "n_boxes": 2
+    },
+    {
+      "file": "SeptoriaLeaf_T3.jpg",
+      "correct": false,
+      "energy_in_box": 0.46375756561073606,
+      "chance": 0.4513345864661654,
+      "n_boxes": 6
+    },
+    {
+      "file": "septoria5.jpg",
+      "correct": false,
+      "energy_in_box": 0.6911723336005084,
+      "chance": 0.5712105135794195,
+      "n_boxes": 1
+    },
+    {
+      "file": "3-septoria-leaf-blight-n.jpg",
+      "correct": false,
+      "energy_in_box": 0.09105749479102267,
+      "chance": 0.10496399176954732,
+      "n_boxes": 1
+    },
+    {
+      "file": "septoria-tomato-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.4946366278876919,
+      "chance": 0.677799352750809,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tom_Sept4.jpg",
+      "correct": false,
+      "energy_in_box": 0.5902147685765957,
+      "chance": 0.5078532608695652,
+      "n_boxes": 2
+    },
+    {
+      "file": "septoria-leaf-spot-on-tomato-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.2682434573377012,
+      "chance": 0.2773541703813554,
+      "n_boxes": 6
+    },
+    {
+      "file": "IMG_0863_1500x1500%253E.jpg",
+      "correct": false,
+      "energy_in_box": 0.6042961323765672,
+      "chance": 0.645648,
+      "n_boxes": 2
+    },
+    {
+      "file": "66e7583ebe11cf0bd06435e4167bd4fd.jpg",
+      "correct": false,
+      "energy_in_box": 0.6862962449465391,
+      "chance": 0.74244940123197,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-early-blight-e1437503226856.jpg",
+      "correct": false,
+      "energy_in_box": 0.6343428178015917,
+      "chance": 0.6263045171339564,
+      "n_boxes": 2
+    },
+    {
+      "file": "5579e3247db73.image.jpg",
+      "correct": false,
+      "energy_in_box": 0.5970108932667428,
+      "chance": 0.5753083333333333,
+      "n_boxes": 9
+    },
+    {
+      "file": "BCH%20medium%20thumbnail%20for%20upload%20%2861%29.jpg",
+      "correct": false,
+      "energy_in_box": 0.49940430943338054,
+      "chance": 0.39067555555555555,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato-plant-is-infected-with-septoria-leaf-spot-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.6073776829551373,
+      "chance": 0.6203742283950617,
+      "n_boxes": 4
+    },
+    {
+      "file": "septorialeafspot2.jpg",
+      "correct": false,
+      "energy_in_box": 0.9765549337590702,
+      "chance": 0.8957052389176742,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_leaf_spots_1500x1500%253E.jpg",
+      "correct": false,
+      "energy_in_box": 0.28156483298172397,
+      "chance": 0.24082075471698114,
+      "n_boxes": 1
+    },
+    {
+      "file": "6078710516023296-600x272.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.9766912522507424,
+      "chance": 0.8686458333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "toma_TMV.jpg",
+      "correct": false,
+      "energy_in_box": 0.752878881773365,
+      "chance": 0.6051664282394963,
+      "n_boxes": 4
+    },
+    {
+      "file": "tmv-tomato-9.jpg",
+      "correct": false,
+      "energy_in_box": 0.8943613660412566,
+      "chance": 0.8193170013850416,
+      "n_boxes": 1
+    },
+    {
+      "file": "D%29AlfMov.jpg",
+      "correct": false,
+      "energy_in_box": 0.68685272260978,
+      "chance": 0.6484305993690852,
+      "n_boxes": 3
+    },
+    {
+      "file": "page_2.jpg",
+      "correct": false,
+      "energy_in_box": 0.164426467634205,
+      "chance": 0.15429586563307493,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato_virus_04_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.36463837519514053,
+      "chance": 0.3191341563786008,
+      "n_boxes": 3
+    },
+    {
+      "file": "tmv-tomato-34.jpg",
+      "correct": false,
+      "energy_in_box": 0.2193972994995975,
+      "chance": 0.45437688760003075,
+      "n_boxes": 3
+    },
+    {
+      "file": "everystockphoto-21099455-l.jpg",
+      "correct": false,
+      "energy_in_box": 0.4984838772161497,
+      "chance": 0.69888,
+      "n_boxes": 1
+    },
+    {
+      "file": "9511.img.jpg",
+      "correct": false,
+      "energy_in_box": 0.27364562125529074,
+      "chance": 0.2513796296296296,
+      "n_boxes": 12
+    },
+    {
+      "file": "dahliaviralsymptoms2lowresjpg.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.4019464526892826,
+      "n_boxes": 4
+    },
+    {
+      "file": "tomato-mosaic-virus-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.6999788329848896,
+      "chance": 0.6333230198019802,
+      "n_boxes": 3
+    },
+    {
+      "file": "51196-004-61703A1B.jpg",
+      "correct": false,
+      "energy_in_box": 0.09948356219288948,
+      "chance": 0.36815144766146995,
+      "n_boxes": 6
+    },
+    {
+      "file": "image024.jpg",
+      "correct": false,
+      "energy_in_box": 0.3558974218097376,
+      "chance": 0.3519061583577713,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomato-mosaic-virus.jpg",
+      "correct": false,
+      "energy_in_box": 0.947613699799252,
+      "chance": 0.9344444444444444,
+      "n_boxes": 1
+    },
+    {
+      "file": "dummen-tmv.jpg",
+      "correct": false,
+      "energy_in_box": 0.2266207964271162,
+      "chance": 0.3909652076318743,
+      "n_boxes": 4
+    },
+    {
+      "file": "TMV-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.005391588825140302,
+      "chance": 0.08209916757148028,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato-mosaic-virus-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.5191003853040596,
+      "chance": 0.5128666666666667,
+      "n_boxes": 9
+    },
+    {
+      "file": "3-tomato-mosaic-virus_web.jpg",
+      "correct": false,
+      "energy_in_box": 0.24616738298083954,
+      "chance": 0.21200869993160168,
+      "n_boxes": 6
+    },
+    {
+      "file": "mosaic_virus_tomato.jpg",
+      "correct": false,
+      "energy_in_box": 0.1959372721143644,
+      "chance": 0.14984817115251897,
+      "n_boxes": 13
+    },
+    {
+      "file": "tmv-tomato-16.jpg",
+      "correct": false,
+      "energy_in_box": 0.6847616422287801,
+      "chance": 0.55798418744229,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato+mosaic+virus.jpg",
+      "correct": false,
+      "energy_in_box": 0.7355443385522625,
+      "chance": 0.7189944134078212,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato_leaf_curl_ND_on_luffah_KC3701030-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.6940003834070638,
+      "chance": 0.5509957325746799,
+      "n_boxes": 1
+    },
+    {
+      "file": "TNRV2.jpg",
+      "correct": false,
+      "energy_in_box": 0.43916814470926274,
+      "chance": 0.32442717448899305,
+      "n_boxes": 3
+    },
+    {
+      "file": "1422_0.jpeg.jpg",
+      "correct": false,
+      "energy_in_box": 0.492254498783195,
+      "chance": 0.4498470052083333,
+      "n_boxes": 10
+    },
+    {
+      "file": "d41c86a650e49b8066d6b347d8e9d3ad.jpg",
+      "correct": false,
+      "energy_in_box": 0.24994811132310532,
+      "chance": 0.2674345076784101,
+      "n_boxes": 7
+    },
+    {
+      "file": "fig2-2k11-1-12.jpg",
+      "correct": false,
+      "energy_in_box": 0.5506395836420221,
+      "chance": 0.4128880097382836,
+      "n_boxes": 1
+    },
+    {
+      "file": "5Tomato+Mosaic+Virus.jpg",
+      "correct": false,
+      "energy_in_box": 0.4630284307261347,
+      "chance": 0.3758656103286385,
+      "n_boxes": 5
+    },
+    {
+      "file": "image022.jpg",
+      "correct": false,
+      "energy_in_box": 0.27680915871595485,
+      "chance": 0.2755338159824047,
+      "n_boxes": 5
+    },
+    {
+      "file": "stock-photo-tomato-mosaic-virus-disease-on-tomato-559799668.jpg",
+      "correct": false,
+      "energy_in_box": 0.5469132883598349,
+      "chance": 0.5742892613283674,
+      "n_boxes": 7
+    },
+    {
+      "file": "mosaic_virus_tomato_small.jpg",
+      "correct": false,
+      "energy_in_box": 0.30236783872798256,
+      "chance": 0.13391304347826086,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomatodisease001sm.jpg",
+      "correct": false,
+      "energy_in_box": 0.31618883026164574,
+      "chance": 0.31224839400428267,
+      "n_boxes": 8
+    },
+    {
+      "file": "Tomato-brown-rugose-fruit-virus-ToBRFV-infected-tomato-Solanum-lycopersicum-plants_Q320.jpg",
+      "correct": false,
+      "energy_in_box": 0.0004487058920902811,
+      "chance": 0.058427734375,
+      "n_boxes": 5
+    },
+    {
+      "file": "Tomato%2Bmosaic%2Bvirus.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.19306613756613755,
+      "n_boxes": 1
+    },
+    {
+      "file": "fig1-2k11-163-165.jpg",
+      "correct": false,
+      "energy_in_box": 0.4606462588683162,
+      "chance": 0.5196557828136775,
+      "n_boxes": 2
+    },
+    {
+      "file": "image018.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.3257537573313783,
+      "n_boxes": 4
+    },
+    {
+      "file": "tomato_mosaic_virus.jpg",
+      "correct": false,
+      "energy_in_box": 0.05033487171941546,
+      "chance": 0.13093550517279332,
+      "n_boxes": 6
+    },
+    {
+      "file": "tomato_virus_01_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.40325901081786897,
+      "chance": 0.29795701254949863,
+      "n_boxes": 7
+    },
+    {
+      "file": "ab40cce958c60d8b6e0ec2e4fdb8f526.jpg",
+      "correct": false,
+      "energy_in_box": 0.09736576186860153,
+      "chance": 0.08121495327102804,
+      "n_boxes": 5
+    },
+    {
+      "file": "4b0bfd_df5a85f728c74cecbe908a24feadab02.jpg",
+      "correct": false,
+      "energy_in_box": 0.49524360900960596,
+      "chance": 0.49500142139675923,
+      "n_boxes": 3
+    },
+    {
+      "file": "DSC02246.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.7983431622093793,
+      "chance": 0.6132942708333333,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_virus_06_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.3851192965652879,
+      "chance": 0.3150189300411523,
+      "n_boxes": 4
+    },
+    {
+      "file": "thumb-500.jpg",
+      "correct": false,
+      "energy_in_box": 0.47857184532356684,
+      "chance": 0.32658,
+      "n_boxes": 10
+    },
+    {
+      "file": "wd0phb4.jpg",
+      "correct": false,
+      "energy_in_box": 0.37674074575929956,
+      "chance": 0.5300405334728033,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_1246.jpg",
+      "correct": false,
+      "energy_in_box": 0.6394750824764562,
+      "chance": 0.6931640625,
+      "n_boxes": 1
+    },
+    {
+      "file": "main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+      "correct": false,
+      "energy_in_box": 0.8033555883780937,
+      "chance": 0.5886726783736751,
+      "n_boxes": 3
+    },
+    {
+      "file": "DSCN1015.JPG.jpg",
+      "correct": true,
+      "energy_in_box": 0.2810928582085084,
+      "chance": 0.3661197916666667,
+      "n_boxes": 3
+    },
+    {
+      "file": "90e2c0.jpg",
+      "correct": false,
+      "energy_in_box": 0.461107225884203,
+      "chance": 0.4512985746436609,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato_leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.9683263928736197,
+      "chance": 0.9511503959437531,
+      "n_boxes": 1
+    },
+    {
+      "file": "2013-08-20-06.jpg",
+      "correct": false,
+      "energy_in_box": 0.22140802724608194,
+      "chance": 0.25955208333333335,
+      "n_boxes": 3
+    },
+    {
+      "file": "1684.jpg",
+      "correct": false,
+      "energy_in_box": 0.6071309560639939,
+      "chance": 0.6294668869791388,
+      "n_boxes": 5
+    },
+    {
+      "file": "Tomato59.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.27042392962602047,
+      "chance": 0.2864636929460581,
+      "n_boxes": 10
+    },
+    {
+      "file": "Bacterial-leaf-spot-transplants1.jpg",
+      "correct": false,
+      "energy_in_box": 0.4502258524264976,
+      "chance": 0.36267560664112386,
+      "n_boxes": 3
+    },
+    {
+      "file": "stock-photo-tomato-leaves-close-up-macro-shot-isolated-on-white-background-78796204.jpg",
+      "correct": false,
+      "energy_in_box": 0.44864718699211326,
+      "chance": 0.6537304964539007,
+      "n_boxes": 5
+    },
+    {
+      "file": "img_1028.jpg",
+      "correct": false,
+      "energy_in_box": 0.4438894718517838,
+      "chance": 0.43824553156638474,
+      "n_boxes": 1
+    },
+    {
+      "file": "stock-photo-tomato-leaf-isolated-on-white-background-580281301.jpg",
+      "correct": false,
+      "energy_in_box": 0.4780385412043091,
+      "chance": 0.3876172839506173,
+      "n_boxes": 3
+    },
+    {
+      "file": "003.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.13536066917117057,
+      "chance": 0.2114328125,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato-leaf-isolated-white-34309524.jpg",
+      "correct": false,
+      "energy_in_box": 0.45251222527236806,
+      "chance": 0.351539240900943,
+      "n_boxes": 7
+    },
+    {
+      "file": "20160428_080421.jpg",
+      "correct": true,
+      "energy_in_box": 0.31416511837953304,
+      "chance": 0.3453088803088803,
+      "n_boxes": 5
+    },
+    {
+      "file": "2013-08-20-04.jpg",
+      "correct": true,
+      "energy_in_box": 0.233685606675586,
+      "chance": 0.201359375,
+      "n_boxes": 9
+    },
+    {
+      "file": "mortgage-lifter-yellow-leaves-2.jpg",
+      "correct": true,
+      "energy_in_box": 0.08799458043991276,
+      "chance": 0.07993843102744617,
+      "n_boxes": 7
+    },
+    {
+      "file": "20140818-tomato-sauce-vicky-wasik-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.0709346971476893,
+      "chance": 0.1997617777777778,
+      "n_boxes": 2
+    },
+    {
+      "file": "9bfac1dea7f401e3b379dab33f535bb4.jpg",
+      "correct": true,
+      "energy_in_box": 0.07407619154048901,
+      "chance": 0.07357961792658502,
+      "n_boxes": 8
+    },
+    {
+      "file": "stock-vector-set-of-vector-elements-for-your-design-red-ripe-tomatoes-with-water-drops-tomato-leaves-and-tomato-203297116.jpg",
+      "correct": false,
+      "energy_in_box": 0.222730546628494,
+      "chance": 0.19342789598108748,
+      "n_boxes": 5
+    },
+    {
+      "file": "1688.jpg",
+      "correct": false,
+      "energy_in_box": 0.30035484125548934,
+      "chance": 0.22884114583333334,
+      "n_boxes": 14
+    },
+    {
+      "file": "IMG_3192.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3253335130625626,
+      "chance": 0.344428125,
+      "n_boxes": 23
+    },
+    {
+      "file": "100_8283.jpg",
+      "correct": true,
+      "energy_in_box": 0.3984830155251426,
+      "chance": 0.3088251723184548,
+      "n_boxes": 8
+    },
+    {
+      "file": "20130609_151253_zpsc7d93f62.jpg",
+      "correct": false,
+      "energy_in_box": 0.5323239243270089,
+      "chance": 0.09867350260416667,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato-leaves-17427786.jpg",
+      "correct": true,
+      "energy_in_box": 0.4981363817332181,
+      "chance": 0.4418939443535188,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomato-vine-ripe-leaves-isolated-against-white-34863029.jpg",
+      "correct": false,
+      "energy_in_box": 0.1255074473906451,
+      "chance": 0.20376705141657922,
+      "n_boxes": 4
+    },
+    {
+      "file": "late_blight_tomato_leaf4x1200.jpg",
+      "correct": true,
+      "energy_in_box": 0.2312101482732607,
+      "chance": 0.30296257432668766,
+      "n_boxes": 10
+    },
+    {
+      "file": "stock-photo-leaves-of-tomato-plant-isolated-on-white-12085288.jpg",
+      "correct": false,
+      "energy_in_box": 0.5608651983592081,
+      "chance": 0.43768392370572207,
+      "n_boxes": 8
+    },
+    {
+      "file": "img_6635.jpg",
+      "correct": true,
+      "energy_in_box": 0.583767369684772,
+      "chance": 0.47134491666666667,
+      "n_boxes": 33
+    },
+    {
+      "file": "depositphotos_7182856-stock-photo-tomato-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.38369659551897284,
+      "chance": 0.35791888602948513,
+      "n_boxes": 7
+    },
+    {
+      "file": "Fig-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.19635266675399182,
+      "chance": 0.26467259724934894,
+      "n_boxes": 3
+    },
+    {
+      "file": "p1011399.jpg",
+      "correct": true,
+      "energy_in_box": 0.4915592920809622,
+      "chance": 0.31799325084364455,
+      "n_boxes": 8
+    },
+    {
+      "file": "depositphotos_143371585-stock-photo-tomato-leaf-closeup-isolated-on.jpg",
+      "correct": false,
+      "energy_in_box": 0.47526981350566994,
+      "chance": 0.4013918110561056,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.5158288988926605,
+      "chance": 0.5770712962962963,
+      "n_boxes": 2
+    },
+    {
+      "file": "2015-09-17-01.jpg",
+      "correct": false,
+      "energy_in_box": 0.6834090714653648,
+      "chance": 0.7095324074074074,
+      "n_boxes": 8
+    },
+    {
+      "file": "DSCN1016.JPG.jpg",
+      "correct": true,
+      "energy_in_box": 0.17530996596065723,
+      "chance": 0.22063802083333334,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato-leaf-close-up.jpg",
+      "correct": false,
+      "energy_in_box": 0.5760925790037168,
+      "chance": 0.5884344112440728,
+      "n_boxes": 8
+    },
+    {
+      "file": "Tomato%2Bleaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.2866383802732942,
+      "chance": 0.6013520700618123,
+      "n_boxes": 5
+    },
+    {
+      "file": "flies.jpg",
+      "correct": false,
+      "energy_in_box": 0.9359129999655968,
+      "chance": 0.8850157813849515,
+      "n_boxes": 1
+    },
+    {
+      "file": "russian-2-319-dt-2010-leaves-high-tunnel-9-29-2014-c.jpg",
+      "correct": false,
+      "energy_in_box": 0.4537130112239732,
+      "chance": 0.405777179495016,
+      "n_boxes": 8
+    },
+    {
+      "file": "CTG514794.jpg",
+      "correct": false,
+      "energy_in_box": 0.4669262557925679,
+      "chance": 0.3659903261813221,
+      "n_boxes": 14
+    },
+    {
+      "file": "Basil%2Binfected%2Bby%2BTomato%2BSpotted%2BWilt%2BVirus.jpg",
+      "correct": false,
+      "energy_in_box": 0.430948810143097,
+      "chance": 0.44027360932917886,
+      "n_boxes": 2
+    },
+    {
+      "file": "PxWBE.jpg",
+      "correct": true,
+      "energy_in_box": 0.45278488757466556,
+      "chance": 0.36819066515495086,
+      "n_boxes": 4
+    },
+    {
+      "file": "1686.jpg",
+      "correct": true,
+      "energy_in_box": 0.023666805586270778,
+      "chance": 0.04654017857142857,
+      "n_boxes": 7
+    },
+    {
+      "file": "15481477375.jpg",
+      "correct": true,
+      "energy_in_box": 0.49718623753587476,
+      "chance": 0.40169605809128633,
+      "n_boxes": 3
+    },
+    {
+      "file": "17371378-tomato-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.49536726957316385,
+      "chance": 0.3196875,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_3011.jpg",
+      "correct": true,
+      "energy_in_box": 0.15728030055712192,
+      "chance": 0.31669027337230105,
+      "n_boxes": 18
+    },
+    {
+      "file": "009-e1373768789869.jpg",
+      "correct": true,
+      "energy_in_box": 0.27212941014867703,
+      "chance": 0.16375328647149226,
+      "n_boxes": 1
+    },
+    {
+      "file": "fpls-08-01602-g001.jpg",
+      "correct": false,
+      "energy_in_box": 0.8401581789316528,
+      "chance": 0.7126036015672091,
+      "n_boxes": 2
+    },
+    {
+      "file": "2013-08-20-03.jpg",
+      "correct": true,
+      "energy_in_box": 0.12870454750677698,
+      "chance": 0.08159583333333334,
+      "n_boxes": 3
+    },
+    {
+      "file": "IMG_2061.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3077924294544229,
+      "chance": 0.18767395833333333,
+      "n_boxes": 2
+    },
+    {
+      "file": "glyphosate.jpg",
+      "correct": false,
+      "energy_in_box": 0.17066894018359402,
+      "chance": 0.1325160557534285,
+      "n_boxes": 6
+    },
+    {
+      "file": "11-40580_5.jpg",
+      "correct": false,
+      "energy_in_box": 0.3774536496458538,
+      "chance": 0.365575,
+      "n_boxes": 9
+    },
+    {
+      "file": "17fc47.jpg",
+      "correct": true,
+      "energy_in_box": 0.17909562960430916,
+      "chance": 0.21815109252929688,
+      "n_boxes": 6
+    },
+    {
+      "file": "fwa2013313115151.jpg",
+      "correct": false,
+      "energy_in_box": 0.4580238148546642,
+      "chance": 0.4274609375,
+      "n_boxes": 11
+    },
+    {
+      "file": "tylcv-seminar-1-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.1585898399630666,
+      "chance": 0.0976204344212407,
+      "n_boxes": 10
+    },
+    {
+      "file": "8226402877_9abf151b5b_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.20746310242762941,
+      "chance": 0.19720986228038068,
+      "n_boxes": 5
+    },
+    {
+      "file": "IMG_2684.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.23671776535834646,
+      "chance": 0.2075734375,
+      "n_boxes": 6
+    },
+    {
+      "file": "Tomato2.jpg",
+      "correct": false,
+      "energy_in_box": 0.3123252822582211,
+      "chance": 0.23498950982262062,
+      "n_boxes": 10
+    },
+    {
+      "file": "role-of-whitefly-in-plant-virus-transmission-by-pmanikandan-13-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.17155176474527997,
+      "chance": 0.2073775695185241,
+      "n_boxes": 26
+    },
+    {
+      "file": "role-of-whitefly-in-plant-virus-transmission-by-pmanikandan-25-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.007642632391788522,
+      "chance": 0.0660074214173991,
+      "n_boxes": 19
+    },
+    {
+      "file": "tomato-yellow-leaf-curl-virus-tomato-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.1696046113460602,
+      "chance": 0.11845925925925926,
+      "n_boxes": 12
+    },
+    {
+      "file": "8227475116_0d40e8f21c_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.24105933539900065,
+      "chance": 0.22875726345168373,
+      "n_boxes": 15
+    },
+    {
+      "file": "TYLCV-tomate-DB-442-167.jpg",
+      "correct": false,
+      "energy_in_box": 0.20678295178218922,
+      "chance": 0.1596966911764706,
+      "n_boxes": 12
+    },
+    {
+      "file": "36ca1410e232eec4a8003fe411246820.jpg",
+      "correct": false,
+      "energy_in_box": 0.3319461901860303,
+      "chance": 0.3306808510638298,
+      "n_boxes": 8
+    },
+    {
+      "file": "virus1.jpg",
+      "correct": false,
+      "energy_in_box": 0.13453026919867678,
+      "chance": 0.11918714555765596,
+      "n_boxes": 6
+    },
+    {
+      "file": "DSC02006.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.1516396775951389,
+      "chance": 0.16489664713541666,
+      "n_boxes": 9
+    },
+    {
+      "file": "s-prasanth-kumar-young-scientist-awarded-presentation-2-728.jpg",
+      "correct": true,
+      "energy_in_box": 0.14157588140261157,
+      "chance": 0.38048349056603775,
+      "n_boxes": 5
+    },
+    {
+      "file": "534ddf3a932e62dd929a3ac1b29bfa29.jpg",
+      "correct": false,
+      "energy_in_box": 0.6043234817032483,
+      "chance": 0.46973408207590306,
+      "n_boxes": 11
+    },
+    {
+      "file": "tomato-yellow-closeup-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.22243307581255808,
+      "chance": 0.1844,
+      "n_boxes": 6
+    },
+    {
+      "file": "illustration-thematique-urbino-fig5.plante%20tylcv.jpg",
+      "correct": false,
+      "energy_in_box": 0.006529624697548593,
+      "chance": 0.08909576157089874,
+      "n_boxes": 14
+    },
+    {
+      "file": "tomato-yellow-closeup-4.jpg",
+      "correct": false,
+      "energy_in_box": 0.2240388294971805,
+      "chance": 0.20472533333333334,
+      "n_boxes": 6
+    },
+    {
+      "file": "latest?cb=20100719124603.jpg",
+      "correct": false,
+      "energy_in_box": 0.5292018991665804,
+      "chance": 0.38323522044088176,
+      "n_boxes": 11
+    },
+    {
+      "file": "tomatoyellowleafcurlcropped.jpg",
+      "correct": true,
+      "energy_in_box": 0.34472476905656335,
+      "chance": 0.5122261980923427,
+      "n_boxes": 13
+    },
+    {
+      "file": "TYLCV-tomate-DB-445-171.jpg",
+      "correct": true,
+      "energy_in_box": 0.1994081266718426,
+      "chance": 0.25684615384615384,
+      "n_boxes": 9
+    },
+    {
+      "file": "TYLCV4.jpg",
+      "correct": true,
+      "energy_in_box": 0.12191308974385075,
+      "chance": 0.1138783802718229,
+      "n_boxes": 4
+    },
+    {
+      "file": "5146.jpg",
+      "correct": true,
+      "energy_in_box": 0.5374479548639535,
+      "chance": 0.4173334478021978,
+      "n_boxes": 5
+    },
+    {
+      "file": "art_15017325188173_a24a66.jpg",
+      "correct": false,
+      "energy_in_box": 0.2927759285181497,
+      "chance": 0.22402471315092673,
+      "n_boxes": 13
+    },
+    {
+      "file": "TYLCV1.jpg",
+      "correct": false,
+      "energy_in_box": 0.08576801377461067,
+      "chance": 0.09766055949566588,
+      "n_boxes": 5
+    },
+    {
+      "file": "tylcv.jpg",
+      "correct": false,
+      "energy_in_box": 0.2543312998126637,
+      "chance": 0.18700277546035018,
+      "n_boxes": 10
+    },
+    {
+      "file": "tylcv1-.jpg",
+      "correct": false,
+      "energy_in_box": 0.23971019537437166,
+      "chance": 0.21021699887062667,
+      "n_boxes": 23
+    },
+    {
+      "file": "tomato-plant-virus-tomato-yellow-leaf-curl-virus-tomato-plant-disease-mosaic-virus.jpg",
+      "correct": false,
+      "energy_in_box": 0.6876795297639158,
+      "chance": 0.47473059360730596,
+      "n_boxes": 12
+    },
+    {
+      "file": "tylcv-seminar-1-638.jpg",
+      "correct": false,
+      "energy_in_box": 0.1585898399630666,
+      "chance": 0.0976204344212407,
+      "n_boxes": 10
+    },
+    {
+      "file": "28619919393_7ef44acccc_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.1363358332534629,
+      "chance": 0.1214480929904514,
+      "n_boxes": 42
+    },
+    {
+      "file": "TYLCV2.jpg",
+      "correct": false,
+      "energy_in_box": 0.14487591272314476,
+      "chance": 0.13902645186953064,
+      "n_boxes": 14
+    },
+    {
+      "file": "leaf%20curl_3.jpg",
+      "correct": true,
+      "energy_in_box": 0.6077453657450869,
+      "chance": 0.5327190224097441,
+      "n_boxes": 10
+    },
+    {
+      "file": "18071.img.jpg",
+      "correct": false,
+      "energy_in_box": 0.35838467444473354,
+      "chance": 0.2901125,
+      "n_boxes": 9
+    },
+    {
+      "file": "1342017-162221-44540.jpg",
+      "correct": false,
+      "energy_in_box": 0.21190343234682285,
+      "chance": 0.16669514563106796,
+      "n_boxes": 9
+    },
+    {
+      "file": "8e60bae9f613f360403943f108a03083.jpg",
+      "correct": false,
+      "energy_in_box": 0.2552812909760824,
+      "chance": 0.25003540427517035,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato_leaf_roll.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3477157217612297,
+      "chance": 0.2318158567774936,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomato-yellow-leaf-curl-virus-pdf-78kb.jpg",
+      "correct": false,
+      "energy_in_box": 0.07255391379779157,
+      "chance": 0.07671075584604853,
+      "n_boxes": 6
+    },
+    {
+      "file": "TYLCVDFerrinlr.jpg",
+      "correct": false,
+      "energy_in_box": 0.35254721781751813,
+      "chance": 0.3080091324200913,
+      "n_boxes": 10
+    },
+    {
+      "file": "r_tomato.jpg",
+      "correct": false,
+      "energy_in_box": 0.3026202004776149,
+      "chance": 0.31255260942760943,
+      "n_boxes": 16
+    },
+    {
+      "file": "DSC01999.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.31754034819958116,
+      "chance": 0.2654622395833333,
+      "n_boxes": 19
+    },
+    {
+      "file": "Figure-4.jpg",
+      "correct": false,
+      "energy_in_box": 0.30530090512947416,
+      "chance": 0.16430821135715246,
+      "n_boxes": 8
+    },
+    {
+      "file": "8226402609_62d16884a7_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.24126418641341443,
+      "chance": 0.2737140739051095,
+      "n_boxes": 32
+    },
+    {
+      "file": "29994445671_b6914b44d0_b.jpg",
+      "correct": false,
+      "energy_in_box": 0.5257912063888046,
+      "chance": 0.5790975547195623,
+      "n_boxes": 23
+    },
+    {
+      "file": "DSC02007.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.14133035698449267,
+      "chance": 0.1619440714518229,
+      "n_boxes": 10
+    },
+    {
+      "file": "072.jpg",
+      "correct": false,
+      "energy_in_box": 0.20460457025005588,
+      "chance": 0.1979141142839192,
+      "n_boxes": 5
+    },
+    {
+      "file": "dscn1652cropped.jpg",
+      "correct": false,
+      "energy_in_box": 0.09919940081532795,
+      "chance": 0.09587150142053916,
+      "n_boxes": 17
+    },
+    {
+      "file": "virus2.jpg",
+      "correct": false,
+      "energy_in_box": 0.04321500110061217,
+      "chance": 0.034631379962192815,
+      "n_boxes": 5
+    },
+    {
+      "file": "IMG_2686.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.19845458071072433,
+      "chance": 0.17767552083333332,
+      "n_boxes": 3
+    },
+    {
+      "file": "IU-TYLCV_img_8.jpg",
+      "correct": false,
+      "energy_in_box": 0.11293430380791564,
+      "chance": 0.19524600638977635,
+      "n_boxes": 6
+    },
+    {
+      "file": "DSC_3019_320x209.jpg",
+      "correct": false,
+      "energy_in_box": 0.2544262568772889,
+      "chance": 0.30777511961722487,
+      "n_boxes": 4
+    },
+    {
+      "file": "TYLCV-tomate-DB-441-170.jpg",
+      "correct": false,
+      "energy_in_box": 0.1378425405681633,
+      "chance": 0.20267510267510266,
+      "n_boxes": 9
+    },
+    {
+      "file": "tomato-yellow-leaf-curl-virus-tylcv_950983.jpg",
+      "correct": false,
+      "energy_in_box": 0.2862205496372694,
+      "chance": 0.23725038402457757,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato-yellow-closeup-3.jpg",
+      "correct": false,
+      "energy_in_box": 0.08203001169195002,
+      "chance": 0.08224,
+      "n_boxes": 5
+    },
+    {
+      "file": "14456.img.jpg",
+      "correct": false,
+      "energy_in_box": 0.2621809006070089,
+      "chance": 0.28472916666666664,
+      "n_boxes": 8
+    },
+    {
+      "file": "tomato_yellow_leaf_curl_virus.jpg",
+      "correct": false,
+      "energy_in_box": 0.05908385647699823,
+      "chance": 0.045581333333333335,
+      "n_boxes": 18
+    },
+    {
+      "file": "IU-TYLCV_img_6.jpg",
+      "correct": false,
+      "energy_in_box": 0.22169756266242122,
+      "chance": 0.1657957175925926,
+      "n_boxes": 35
+    },
+    {
+      "file": "leaves-curling-on-tomato-plant-characteristic-symptoms-tomato-plants-leaves-curling-down-on-tomato-plant.jpg",
+      "correct": false,
+      "energy_in_box": 0.5007949284729428,
+      "chance": 0.4568574390457342,
+      "n_boxes": 22
+    },
+    {
+      "file": "7585001780_4b89e826b7.jpg",
+      "correct": false,
+      "energy_in_box": 0.651668101655979,
+      "chance": 0.6130599028602267,
+      "n_boxes": 7
+    },
+    {
+      "file": "yellowing.JPG.jpg",
+      "correct": true,
+      "energy_in_box": 0.6207143353596326,
+      "chance": 0.5404025423728813,
+      "n_boxes": 5
+    },
+    {
+      "file": "IMG_2687.JPG.jpg",
+      "correct": true,
+      "energy_in_box": 0.500468170766716,
+      "chance": 0.3286671875,
+      "n_boxes": 4
+    },
+    {
+      "file": "tj5itxzunn3k.jpg",
+      "correct": false,
+      "energy_in_box": 0.37309494629273465,
+      "chance": 0.44737060546875,
+      "n_boxes": 5
+    },
+    {
+      "file": "BIGSD.jpg",
+      "correct": false,
+      "energy_in_box": 0.13772404640732747,
+      "chance": 0.0703645147123408,
+      "n_boxes": 6
+    },
+    {
+      "file": "dscn6689.jpg",
+      "correct": false,
+      "energy_in_box": 0.7106131635258386,
+      "chance": 0.5794143676757812,
+      "n_boxes": 1
+    },
+    {
+      "file": "49%20Leafmold%20Bottom.jpg",
+      "correct": false,
+      "energy_in_box": 0.922904413764541,
+      "chance": 0.7169505271695052,
+      "n_boxes": 1
+    },
+    {
+      "file": "black_leaf_mold_in_zina_tina.jpg",
+      "correct": false,
+      "energy_in_box": 0.21492608394873108,
+      "chance": 0.27627160493827163,
+      "n_boxes": 3
+    },
+    {
+      "file": "50%20Leafmold%20Top.jpg",
+      "correct": false,
+      "energy_in_box": 0.8530157377543834,
+      "chance": 0.7390995492847344,
+      "n_boxes": 1
+    },
+    {
+      "file": "fungus-univ-of-minnesoeta.jpg",
+      "correct": false,
+      "energy_in_box": 0.0,
+      "chance": 0.5424979166666667,
+      "n_boxes": 4
+    },
+    {
+      "file": "Leaf-mold3.jpg",
+      "correct": false,
+      "energy_in_box": 0.3039208837042844,
+      "chance": 0.3392162432833234,
+      "n_boxes": 10
+    },
+    {
+      "file": "latest?cb=20100723105221.jpg",
+      "correct": false,
+      "energy_in_box": 0.24459316424527183,
+      "chance": 0.45067708333333334,
+      "n_boxes": 4
+    },
+    {
+      "file": "IMG_1261.jpg",
+      "correct": false,
+      "energy_in_box": 0.6598298862972323,
+      "chance": 0.629209375,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold_tomato5x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.8732726595928001,
+      "chance": 0.8713170336007706,
+      "n_boxes": 2
+    },
+    {
+      "file": "ArticleImage.aspx?imgid=4987.jpg",
+      "correct": false,
+      "energy_in_box": 0.9906044961452052,
+      "chance": 0.9751,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold2.jpg",
+      "correct": false,
+      "energy_in_box": 0.9650467155143636,
+      "chance": 0.9796637426900585,
+      "n_boxes": 1
+    },
+    {
+      "file": "tdisease7.jpg",
+      "correct": false,
+      "energy_in_box": 0.6952055591033129,
+      "chance": 0.6262778771615981,
+      "n_boxes": 7
+    },
+    {
+      "file": "leaf_mold_nightshade2x500.jpg",
+      "correct": false,
+      "energy_in_box": 0.976968419699033,
+      "chance": 0.9716941529235382,
+      "n_boxes": 1
+    },
+    {
+      "file": "603-116-0.jpg",
+      "correct": false,
+      "energy_in_box": 0.6449044458887727,
+      "chance": 0.5434500802759112,
+      "n_boxes": 1
+    },
+    {
+      "file": "black%20leaf%20mold%20%284%29.JPG?itok=DIIUw9JU.jpg",
+      "correct": false,
+      "energy_in_box": 0.9999999999998384,
+      "chance": 0.9803124340868191,
+      "n_boxes": 1
+    },
+    {
+      "file": "119B_Tom_Mold.jpg",
+      "correct": true,
+      "energy_in_box": 0.3619107756191076,
+      "chance": 0.46999090909090907,
+      "n_boxes": 3
+    },
+    {
+      "file": "leafmoldtomato2.jpg",
+      "correct": false,
+      "energy_in_box": 0.9389363215265413,
+      "chance": 0.9369583333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "4118c92ffde66d327ee14e4023320bf7.jpg",
+      "correct": false,
+      "energy_in_box": 0.4044581997406112,
+      "chance": 0.5977743974480151,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_plants_1_original.JPG?1407178095.jpg",
+      "correct": false,
+      "energy_in_box": 0.012616968850257832,
+      "chance": 0.021738934544405997,
+      "n_boxes": 2
+    },
+    {
+      "file": "Tomato+leaf+mold.jpg",
+      "correct": false,
+      "energy_in_box": 0.7770754931148356,
+      "chance": 0.6743057291666666,
+      "n_boxes": 6
+    },
+    {
+      "file": "tomato_leaf-mold_04_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.048290026782929034,
+      "chance": 0.10904691358024692,
+      "n_boxes": 4
+    },
+    {
+      "file": "leaf_mold_tomato4x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.942048056915507,
+      "chance": 0.9456122463736677,
+      "n_boxes": 2
+    },
+    {
+      "file": "tomato-leaf-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.9267209902323498,
+      "chance": 0.8929576873779297,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold_tomato7x1200.jpg",
+      "correct": true,
+      "energy_in_box": 0.9660964680888007,
+      "chance": 0.9538247483718176,
+      "n_boxes": 1
+    },
+    {
+      "file": "Leaf+mold+tomato+%25283%2529.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.4135344042007552,
+      "chance": 0.3463760416666667,
+      "n_boxes": 10
+    },
+    {
+      "file": "leaf%2Binf%2B800%2B1.jpg",
+      "correct": false,
+      "energy_in_box": 0.28583432831953254,
+      "chance": 0.33004000969932107,
+      "n_boxes": 2
+    },
+    {
+      "file": "607-155-1.jpg",
+      "correct": false,
+      "energy_in_box": 0.7813802863872698,
+      "chance": 0.7064694564694565,
+      "n_boxes": 1
+    },
+    {
+      "file": "dscn6690.jpg",
+      "correct": false,
+      "energy_in_box": 0.7195818554159623,
+      "chance": 0.7306925455729166,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold_tomato2x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9669163339539185,
+      "chance": 0.9557302083333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "Ormvn.jpg",
+      "correct": false,
+      "energy_in_box": 0.22153302624460597,
+      "chance": 0.3768956666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "Tomato%20greenhouse%20leaf%20edema%20and%20distortion2F.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.5652366703306193,
+      "chance": 0.6924641927083334,
+      "n_boxes": 1
+    },
+    {
+      "file": "23600077_1572609202782510_2145699867_o.jpg",
+      "correct": false,
+      "energy_in_box": 0.43822799082599634,
+      "chance": 0.5248115596064815,
+      "n_boxes": 3
+    },
+    {
+      "file": "23633262_1572609386115825_1396180255_o.jpg",
+      "correct": false,
+      "energy_in_box": 0.33889981165754396,
+      "chance": 0.3100654658564815,
+      "n_boxes": 1
+    },
+    {
+      "file": "gray-mold-on-tomato-leaf.jpg",
+      "correct": false,
+      "energy_in_box": 0.6294000784101292,
+      "chance": 0.6157296650717703,
+      "n_boxes": 1
+    },
+    {
+      "file": "top-leaf-mold-Fulva-fulvea-WN.jpg",
+      "correct": false,
+      "energy_in_box": 0.46686735665467727,
+      "chance": 0.4524666666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "HighTunnel_TLM6.jpg",
+      "correct": false,
+      "energy_in_box": 0.3853378230119833,
+      "chance": 0.3497400756143667,
+      "n_boxes": 1
+    },
+    {
+      "file": "black%20leaf%20mold%20%283%29.JPG?itok=u5TDHCSM.jpg",
+      "correct": false,
+      "energy_in_box": 0.8612781462543739,
+      "chance": 0.8780510790688908,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_fulvia.jpg",
+      "correct": false,
+      "energy_in_box": 0.984516300626557,
+      "chance": 0.6438961988304094,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_fulvia2.jpg",
+      "correct": false,
+      "energy_in_box": 0.7927484889218845,
+      "chance": 0.7752006172839506,
+      "n_boxes": 2
+    },
+    {
+      "file": "Leaf+Mold+lower+leaf+surface+spores+%28conidia%29.jpg",
+      "correct": false,
+      "energy_in_box": 0.2990711412505059,
+      "chance": 0.31723234953703705,
+      "n_boxes": 4
+    },
+    {
+      "file": "23601051_1572608349449262_2029169498_o.jpg",
+      "correct": false,
+      "energy_in_box": 0.4472188359536823,
+      "chance": 0.5113411458333333,
+      "n_boxes": 2
+    },
+    {
+      "file": "tylc.jpg",
+      "correct": false,
+      "energy_in_box": 0.1444898691202974,
+      "chance": 0.12881791254996997,
+      "n_boxes": 5
+    },
+    {
+      "file": "P1020365.jpg",
+      "correct": false,
+      "energy_in_box": 0.6590061527669089,
+      "chance": 0.613016,
+      "n_boxes": 6
+    },
+    {
+      "file": "2195890.jpg",
+      "correct": false,
+      "energy_in_box": 0.4811170367232209,
+      "chance": 0.5010293333333333,
+      "n_boxes": 9
+    },
+    {
+      "file": "Leaf-mold-web.jpg",
+      "correct": false,
+      "energy_in_box": 0.6829127555812579,
+      "chance": 0.6448773333333333,
+      "n_boxes": 4
+    },
+    {
+      "file": "100_4542.jpg",
+      "correct": false,
+      "energy_in_box": 0.7865304928930312,
+      "chance": 0.8252314814814815,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_leaf-mold_01_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.5364871057373242,
+      "chance": 0.4489020576131687,
+      "n_boxes": 9
+    },
+    {
+      "file": "dscf2712.jpg",
+      "correct": false,
+      "energy_in_box": 0.4472203276775149,
+      "chance": 0.3794,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold_nightshade1x500.jpg",
+      "correct": false,
+      "energy_in_box": 0.9856273102359686,
+      "chance": 0.9830764617691155,
+      "n_boxes": 1
+    },
+    {
+      "file": "8915974546_00664cefe3_z.jpg",
+      "correct": false,
+      "energy_in_box": 0.386130391697171,
+      "chance": 0.31372907949790796,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold_tomato3x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9242320305694561,
+      "chance": 0.8705958333333333,
+      "n_boxes": 1
+    },
+    {
+      "file": "leafmoldtomato1.jpg",
+      "correct": false,
+      "energy_in_box": 0.6276940438388415,
+      "chance": 0.6016666666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "Fig.%2016_opt.jpg",
+      "correct": false,
+      "energy_in_box": 0.8274980901023543,
+      "chance": 0.8211396054820969,
+      "n_boxes": 1
+    },
+    {
+      "file": "Leaf+mold+tomato+%25282%2529.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.38497516778735613,
+      "chance": 0.3696276041666667,
+      "n_boxes": 9
+    },
+    {
+      "file": "607-155-0.jpg",
+      "correct": false,
+      "energy_in_box": 0.6171910300556672,
+      "chance": 0.6396176268861454,
+      "n_boxes": 1
+    },
+    {
+      "file": "image233.jpg",
+      "correct": false,
+      "energy_in_box": 0.5521503746653699,
+      "chance": 0.4715531914893617,
+      "n_boxes": 2
+    },
+    {
+      "file": "tdisease12.jpg",
+      "correct": false,
+      "energy_in_box": 0.3036718895226192,
+      "chance": 0.3103628215360059,
+      "n_boxes": 5
+    },
+    {
+      "file": "DSCN2697.jpg",
+      "correct": false,
+      "energy_in_box": 0.3781930175618516,
+      "chance": 0.43011474609375,
+      "n_boxes": 1
+    },
+    {
+      "file": "HighTunnel_TLM5.jpg",
+      "correct": false,
+      "energy_in_box": 0.5784608663681338,
+      "chance": 0.5773408947700063,
+      "n_boxes": 1
+    },
+    {
+      "file": "leafmold.jpg",
+      "correct": false,
+      "energy_in_box": 0.504432138813186,
+      "chance": 0.46448902141501763,
+      "n_boxes": 3
+    },
+    {
+      "file": "leaf_mold_tomato6x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.5617451819733696,
+      "chance": 0.5235883280757098,
+      "n_boxes": 7
+    },
+    {
+      "file": "tomato-leaf-mold.jpg",
+      "correct": false,
+      "energy_in_box": 0.9052661898854454,
+      "chance": 0.9138666666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "leaf_mold_tomato1x1200.jpg",
+      "correct": false,
+      "energy_in_box": 0.9751356086846086,
+      "chance": 0.9585186690283625,
+      "n_boxes": 1
+    },
+    {
+      "file": "pm3.jpg",
+      "correct": false,
+      "energy_in_box": 0.9298459226834884,
+      "chance": 0.9333244424122339,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato-gray-leaf-spot.jpg",
+      "correct": false,
+      "energy_in_box": 0.9783053429284263,
+      "chance": 0.9735111111111111,
+      "n_boxes": 1
+    },
+    {
+      "file": "B%29-Leafunsidecladosp-envez.jpg",
+      "correct": false,
+      "energy_in_box": 0.8096891970263943,
+      "chance": 0.786425,
+      "n_boxes": 1
+    },
+    {
+      "file": "Problem-2a.jpg",
+      "correct": false,
+      "energy_in_box": 0.2853109723356081,
+      "chance": 0.1926168614357262,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_Leaf-roll-physiological-7059-SLoewen_thm.jpg",
+      "correct": true,
+      "energy_in_box": 0.304156488192196,
+      "chance": 0.36163682864450125,
+      "n_boxes": 2
+    },
+    {
+      "file": "Leaf+Mold+upper+leaf+surface.jpg",
+      "correct": false,
+      "energy_in_box": 0.17078383394310115,
+      "chance": 0.18642505787037036,
+      "n_boxes": 16
+    },
+    {
+      "file": "Fig.%2015_opta.jpg",
+      "correct": false,
+      "energy_in_box": 0.4655750133076931,
+      "chance": 0.47851971089406076,
+      "n_boxes": 9
+    },
+    {
+      "file": "d-to-tylv-fo005-14496A31BE70553130A.jpg",
+      "correct": false,
+      "energy_in_box": 0.22087045709431752,
+      "chance": 0.22355302776848443,
+      "n_boxes": 21
+    },
+    {
+      "file": "6032331.JPG.jpg",
+      "correct": false,
+      "energy_in_box": 0.3905987714975663,
+      "chance": 0.3886904761904762,
+      "n_boxes": 5
+    },
+    {
+      "file": "BlackLeafMold2.jpg",
+      "correct": false,
+      "energy_in_box": 0.29637801543224246,
+      "chance": 0.33579057923627215,
+      "n_boxes": 6
+    },
+    {
+      "file": "Leaf-mold-caused-by-the-fungal-pathogen-Passalore-fulva-in-tomatoes.jpg",
+      "correct": false,
+      "energy_in_box": 0.5032376175913157,
+      "chance": 0.5173283950617283,
+      "n_boxes": 5
+    },
+    {
+      "file": "tomato.jpg",
+      "correct": false,
+      "energy_in_box": 0.10427041251782222,
+      "chance": 0.13516041666666667,
+      "n_boxes": 5
+    },
+    {
+      "file": "tdisease6.jpg",
+      "correct": false,
+      "energy_in_box": 0.6423500790094789,
+      "chance": 0.5745648312611012,
+      "n_boxes": 7
+    },
+    {
+      "file": "GIVXB.jpg",
+      "correct": false,
+      "energy_in_box": 0.1928716056272745,
+      "chance": 0.4191416666666667,
+      "n_boxes": 5
+    },
+    {
+      "file": "5830204360_757cd7fdfc_z.jpg",
+      "correct": false,
+      "energy_in_box": 0.9459666945890853,
+      "chance": 0.9478629976580796,
+      "n_boxes": 3
+    },
+    {
+      "file": "tomato_leaf-mold_03_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.6116722419887545,
+      "chance": 0.8373432098765432,
+      "n_boxes": 1
+    },
+    {
+      "file": "tomato_leaf-mold_02_zoom.jpg",
+      "correct": false,
+      "energy_in_box": 0.4461110331278123,
+      "chance": 0.4577530864197531,
+      "n_boxes": 2
+    },
+    {
+      "file": "leaf_mold1.jpg",
+      "correct": false,
+      "energy_in_box": 0.8047527924139091,
+      "chance": 0.688713768115942,
+      "n_boxes": 2
+    },
+    {
+      "file": "OLU13.jpg",
+      "correct": false,
+      "energy_in_box": 0.3440518693550597,
+      "chance": 0.4045210833333333,
+      "n_boxes": 4
+    },
+    {
+      "file": "tomato-leaf-mold-2.jpg",
+      "correct": false,
+      "energy_in_box": 0.5386140386291784,
+      "chance": 0.5794666666666667,
+      "n_boxes": 1
+    },
+    {
+      "file": "IMG_7442%20resized_0.preview.jpg",
+      "correct": false,
+      "energy_in_box": 0.8084721408070741,
+      "chance": 0.6766334519572954,
+      "n_boxes": 3
+    }
+  ]
+}
