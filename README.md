@@ -117,6 +117,3 @@ PlantVillage and PlantDoc are third-party datasets under their own licences,
 and are not redistributed here. `results/manifest.csv` records which images
 were used and how they were split, but contains no image data.
 
-## Citation
-
-The manuscript is under review. Citation details will be added on acceptance.
